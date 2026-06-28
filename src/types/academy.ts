@@ -8,7 +8,7 @@ export interface StoredUser {
   email: string;
   /** Present when listing from seed; omitted from API responses. */
   password?: string;
-  role: 'parent' | 'student' | 'admin' | 'staff' | 'child';
+  role: 'parent' | 'student' | 'admin' | 'staff' | 'child' | 'teacher';
   avatar: string;
   phone?: string;
   createdAt?: string;

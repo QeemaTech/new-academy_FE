@@ -13,7 +13,6 @@ import {
 } from '../../ui/dialog';
 import { Button } from '../../ui/button';
 import { Input } from '../../ui/input';
-import { ScrollArea } from '../../ui/scroll-area';
 import { api } from '../../../lib/axios';
 
 interface Track {

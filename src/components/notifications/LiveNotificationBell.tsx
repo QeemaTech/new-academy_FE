@@ -15,7 +15,7 @@ import { arEG, enUS } from 'date-fns/locale';
 export function LiveNotificationBell({ isStudentView = false }: { isStudentView?: boolean }) {
   const { t, i18n } = useTranslation();
   const navigate = useNavigate();
-  const { token } = useAuthStore();
+  const { accessToken: token } = useAuthStore();
   const [notifications, setNotifications] = useState<any[]>([]);
   const [unreadCount, setUnreadCount] = useState(0);
   const [open, setOpen] = useState(false);

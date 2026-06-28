@@ -45,11 +45,18 @@ export function BannerDialog({ open, onOpenChange, banner, onSuccess }: BannerDi
   const { t } = useTranslation();
   const [loading, setLoading] = useState(false);
   
-  const [formData, setFormData] = useState({
+  const [formData, setFormData] = useState<{
+    title: string;
+    imageUrl: string;
+    link: string;
+    position: 'HERO' | 'SIDEBAR' | 'POPUP';
+    isActive: boolean;
+    order: number;
+  }>({
     title: '',
     imageUrl: '',
     link: '',
-    position: 'HERO' as const,
+    position: 'HERO',
     isActive: true,
     order: 0
   });

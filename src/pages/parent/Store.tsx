@@ -226,7 +226,7 @@ export default function ParentStore() {
                       </div>
                       <Button
                         type="button"
-                        disabled={!activeChildId || buyBundleMut.isPending || (activeChildId && b.tracks.some((t) => ownedSet.has(t.id)))}
+                        disabled={!activeChildId || buyBundleMut.isPending || (!!activeChildId && b.tracks.some((t) => ownedSet.has(t.id)))}
                         className="w-full rounded-2xl bg-[#06122b] font-black shadow-md shadow-[#06122b]/15 hover:bg-[#050c1f]"
                         onClick={() => buyBundleMut.mutate(b.id)}
                       >

@@ -23,7 +23,7 @@ interface Article {
   title: string;
   slug: string;
   content: string;
-  image?: string;
+  image?: string | null;
   displayAuthor?: string | null;
   isPublished: boolean;
 }
@@ -55,6 +55,7 @@ export function ArticleDialog({ open, onOpenChange, article, onSuccess }: Articl
         slug: article.slug,
         content: article.content,
         image: article.image || '',
+        displayAuthor: article.displayAuthor || '',
         isPublished: article.isPublished
       });
     } else if (open) {
@@ -63,6 +64,7 @@ export function ArticleDialog({ open, onOpenChange, article, onSuccess }: Articl
         slug: '',
         content: '',
         image: '',
+        displayAuthor: '',
         isPublished: false
       });
     }

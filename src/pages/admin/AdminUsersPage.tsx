@@ -198,6 +198,9 @@ const RoleBadge: React.FC<{ role: UserRole; customRoleName?: string }> = ({ role
   const styles: Record<UserRole, string> = {
     CHILD: 'border-blue-100 bg-blue-50 text-blue-600',
     TEACHER: 'border-emerald-100 bg-emerald-50 text-emerald-600',
+    ADMIN: 'border-purple-100 bg-purple-50 text-purple-600',
+    STAFF: 'border-amber-100 bg-amber-50 text-amber-600',
+    PARENT: 'border-indigo-100 bg-indigo-50 text-indigo-600',
   };
 
   if (role === 'STAFF' && customRoleName) {

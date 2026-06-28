@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { useQuery } from '@tanstack/react-query';
+import { useQuery, keepPreviousData } from '@tanstack/react-query';
 import { useTranslation } from 'react-i18next';
 import { Users, Search, ChevronRight, ChevronLeft, Inbox } from 'lucide-react';
 import { useDebounce } from 'use-debounce';
@@ -58,7 +58,7 @@ export default function TeacherStudentsPage() {
       });
       return res.data.data;
     },
-    keepPreviousData: true,
+    placeholderData: keepPreviousData,
   });
 
   const students = data?.students ?? [];

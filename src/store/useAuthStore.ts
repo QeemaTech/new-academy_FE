@@ -8,6 +8,9 @@ export interface User {
   username?: string;
   role: string;
   permissions?: string[];
+  phone?: string;
+  inAppNotifications?: boolean;
+  emailNotifications?: boolean;
 }
 
 interface AuthState {

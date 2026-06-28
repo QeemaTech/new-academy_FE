@@ -85,7 +85,7 @@ export default function QuizBuilderDialog({ open, onOpenChange, quiz, onSuccess 
     reset,
     formState: { errors, isSubmitting },
   } = useForm<QuizFormValues>({
-    resolver: zodResolver(QuizFormSchema),
+    resolver: zodResolver(QuizFormSchema) as any,
     defaultValues: {
       title: '',
       type: 'LESSON_QUIZ',
