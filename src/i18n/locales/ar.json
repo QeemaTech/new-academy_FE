@@ -1,0 +1,1587 @@
+{
+  "common": {
+    "saveChanges": "حفظ التغييرات",
+    "cancel": "إلغاء",
+    "delete": "حذف",
+    "edit": "تعديل",
+    "save": "حفظ",
+    "saving": "جاري الحفظ...",
+    "loading": "جاري التحميل...",
+    "noResults": "لا توجد نتائج",
+    "searchPlaceholder": "بحث...",
+    "from": "من",
+    "to": "إلى",
+    "close": "إغلاق",
+    "error": "حدث خطأ غير متوقع",
+    "active": "نشط",
+    "inactive": "غير نشط",
+    "published": "منشور",
+    "draft": "مسودة",
+    "confirmDelete": "هل أنت متأكد؟",
+    "create": "إنشاء"
+  },
+"Common": {
+  "save": "حفظ",
+  "saveChanges": "حفظ التغييرات",
+  "saving": "جاري الحفظ...",
+  "cancel": "إلغاء",
+  "create": "إنشاء",
+  "delete": "حذف",
+  "edit": "تعديل",
+  "view": "عرض",
+  "close": "إغلاق",
+
+  "loading": "جاري التحميل...",
+  "error": "حدث خطأ. يرجى المحاولة مرة أخرى.",
+  "retry": "إعادة المحاولة",
+
+  "searchPlaceholder": "بحث...",
+  "noResults": "لا توجد نتائج",
+
+  "actions": "إجراءات",
+  "support": "الدعم",
+
+  "total": "الإجمالي",
+  "currency": "ر.س",
+
+  "justNow": "الآن",
+  "from": "من",
+  "to": "إلى",
+
+  "none": "لا يوجد"
+},
+  "Dashboard": {
+    "title": "لوحة التحكم",
+    "revenue": "إجمالي الإيرادات",
+    "activeSubscriptions": "الاشتراكات النشطة",
+    "pendingTickets": "التذاكر المعلقة"
+  },
+  "Categories": {
+    "title": "الباقات والفئات"
+  },
+  "Payments": {
+    "title": "المدفوعات والعمليات"
+  },
+  "Reports": {
+    "title": "التقارير والتحليلات",
+    "subtitle": "مركز البيانات واستخلاص التقارير المتقدمة",
+    "export": "تصدير CSV",
+    "tabFinancials": "التقارير المالية",
+    "tabAcademics": "الأداء الأكاديمي",
+    "tabOperations": "التفاعلات والدعم",
+    "revenueGrowth": "نمو الإيرادات",
+    "actualVsExpected": "مقارنة الدخل الفعلي مقابل المتوقع"
+  },
+  "Assessments": {
+    "title": "التقييمات والنتائج"
+  },
+  "Coupons": {
+    "title": "القسائم والخصومات"
+  },
+  "CMS": {
+    "title": "إدارة المحتوى (CMS)"
+  },
+  "Support": {
+    "title": "مركز الدعم"
+  },
+  "Users": {
+    "title": "المستخدمين",
+    "parents": "أولياء الأمور",
+    "children": "الأبناء"
+  },
+  "Curriculum": {
+    "title": "المنهج الدراسي",
+    "tracks": "المسارات",
+    "learningPaths": "الفصول",
+    "sessions": "الدروس"
+  },
+  "Roles": {
+    "title": "الأدوار والصلاحيات",
+    "parent": "ولي الأمر",
+    "student": "الطالب",
+    "teacher": "المعلم",
+    "admin": "لوحة الإدارة",
+    "staff": "موظف",
+    "super_admin": "مدير المنصة"
+  },
+  "Teacher": {
+    "nav": {
+      "dashboard": "الرئيسية",
+      "tracks": "مساراتي",
+      "myStudents": "طلابي",
+      "settings": "الإعدادات",
+      "availability": "التوافر"
+    },
+    "availability": {
+      "title": "التوافر",
+      "subtitle": "حدد أوقات التدريس الأسبوعية وساعات المكتب",
+      "dayOfWeek": {
+        "0": "الأحد",
+        "1": "الاثنين",
+        "2": "الثلاثاء",
+        "3": "الأربعاء",
+        "4": "الخميس",
+        "5": "الجمعة",
+        "6": "السبت"
+      },
+      "day": "اليوم",
+      "startTime": "وقت البدء",
+      "endTime": "وقت الانتهاء",
+      "addSlot": "إضافة فترة",
+      "save": "حفظ التوافر",
+      "saving": "جاري الحفظ…",
+      "fetchError": "تعذر تحميل التوافر",
+      "saveSuccess": "تم تحديث التوافر",
+      "error": "فشل تحديث التوافر"
+    },
+    "shell": {
+      "searchPlaceholder": "ابحث في مساراتك…"
+    },
+
+    "lifecycle": {
+      "LIVE_ENROLLMENT": "تسجيل مباشر",
+      "SELF_PACED": "ذاتي",
+      "CLOSED": "مغلق"
+    },
+
+    "price": {
+      "live": "مباشر",
+      "selfPaced": "ذاتي",
+      "base": "السعر"
+    },
+
+    "track": {
+      "inactive": "غير نشط",
+      "meta": "{{sessions}} درس · {{paths}} وحدة",
+      "openRoadmap": "فتح الخطة الخطية"
+    },
+
+    "lesson": {
+      "recorded": "مسجّل",
+      "live": "مباشر",
+      "hidden": "مخفي",
+      "openMeeting": "رابط الحصة",
+      "recording": "التسجيل",
+      "video": "فيديو",
+      "edit": "تعديل"
+    },
+
+    "live": {
+      "utcHint": "UTC",
+      "scheduled": "مجدول",
+      "upcoming": "قادم",
+      "startingSoon": "يبدأ قريبًا",
+      "happeningNow": "جاري الآن",
+      "waitingRecording": "بانتظار رفع التسجيل",
+      "archived": "مسجّل",
+      "startsInLabel": "يبدأ خلال",
+      "endsInLabel": "تنتهي الحصة خلال",
+      "joinLive": "انضم للبث المباشر",
+      "openLobby": "فتح رابط الاجتماع",
+      "past": "منتهي"
+    },
+
+    "roadmap": {
+      "back": "كل المسارات",
+      "notFound": "المسار غير متاح أو غير مخصص لك.",
+      "timezone": "المنطقة الزمنية الافتراضية للعرض",
+      "title": "الخطة الخطية",
+      "trackLevel": "دروس على مستوى المسار",
+      "unit": "وحدة",
+      "addLesson": "إضافة درس",
+      "emptySection": "لا توجد دروس في هذا الجزء بعد."
+    },
+
+    "lessonDialog": {
+      "createTitle": "درس جديد",
+      "editTitle": "تعديل الدرس",
+      "subtitle": "خطوة في الخطة الخطية: مسجّل أو مباشر (جدولة UTC + رابط الاجتماع للمباشر).",
+      "title": "العنوان",
+      "learningPath": "وحدة التعلم",
+      "pathPlaceholder": "اختر وحدة",
+      "pathNone": "على مستوى المسار (بدون وحدة)",
+      "description": "الوصف",
+      "contentType": "نوع المحتوى",
+      "order": "الترتيب",
+      "lessonType": "نوع الدرس",
+      "typeRecorded": "مسجّل — حسب الطلب",
+      "typeLive": "مباشر — بجدولة (UTC)",
+      "liveHint": "اختر التاريخ والوقت المحلي؛ يُرسل للخادم كوقت ISO (UTC).",
+      "scheduledAt": "موعد البدء",
+      "meetingUrl": "رابط الاجتماع المباشر",
+      "recordingUrl": "رابط التسجيل (بعد البث)",
+      "videoUrl": "رابط الفيديو",
+      "textContent": "نص / تعليمات",
+      "duration": "المدة (دقائق)",
+      "visible": "ظاهر للطلاب",
+      "visibleHint": "عطّل أثناء الإعداد.",
+      "cancel": "إلغاء",
+      "save": "حفظ",
+      "saving": "جاري الحفظ…"
+    },
+
+    "dashboard": {
+      "title": "رئيسية المعلم",
+      "subtitle": "إدارة المسارات المخصصة لك والمنهج الهجين الخطي (مسجّل + مباشر).",
+      "assignedTracks": "المسارات المعينة",
+      "totalLessons": "الدروس عبر المسارات",
+      "lifecycleMix": "مزيج دورة الحياة",
+      "goTracks": "افتح مساراتي",
+      "performanceTitle": "نظرة عامة على الأداء",
+      "last30Days": "تفاعل آخر 30 يومًا",
+      "realTime": "تحليلات فورية"
+    },
+
+    "tracks": {
+      "title": "مساراتي",
+      "subtitle": "المسارات التي تدرّسها. افتح الخطة الخطية لتعديل المنهج.",
+      "refresh": "تحديث",
+      "refreshing": "جاري التحديث…",
+      "loadError": "تعذر تحميل المسارات.",
+      "empty": "لا توجد مسارات مخصصة لك. تواصل مع الإدارة."
+    },
+
+    "tabs": {
+      "roadmap": "المنهج",
+      "students": "الطلاب"
+    },
+
+    "quiz": {
+      "addAssessment": "إضافة تقييم",
+      "assessmentBadge": "تقييم",
+      "typeLesson": "اختبار",
+      "typeFinal": "اختبار نهائي",
+      "typeCompetition": "مسابقة",
+      "passingLine": "النجاح {{n}}٪",
+      "questionCount": "{{count}} سؤال",
+      "maxAttemptsLine": "حد أقصى {{n}} محاولات",
+      "edit": "تعديل",
+      "createTitle": "تقييم جديد",
+      "editTitle": "تعديل التقييم",
+      "subtitle": "اربط الاختبارات والامتحانات بالمنهج. يظهر للطلاب حسب ترتيب الخطة.",
+      "title": "العنوان",
+      "titlePh": "مثال: اختبار الوحدة الأولى",
+      "kind": "نوع التقييم",
+      "placement": "جزء الخطة",
+      "passingScore": "درجة النجاح %",
+      "maxAttempts": "أقصى محاولات",
+      "timeLimit": "الزمن (دقائق، اختياري)",
+      "questions": "الأسئلة",
+      "addQuestion": "إضافة سؤال",
+      "questionN": "سؤال {{n}}",
+      "removeQuestion": "حذف السؤال",
+      "mcq": "اختيار من متعدد",
+      "tf": "صح / خطأ",
+      "questionPlaceholder": "اكتب السؤال…",
+      "optionPlaceholder": "نص الخيار",
+      "addOption": "إضافة خيار",
+      "save": "حفظ التغييرات",
+      "create": "إنشاء التقييم",
+      "confirmDelete": "حذف هذا التقييم؟ لا يمكن التراجع.",
+      "errTimeLimit": "أدخل زمنًا صالحًا بالدقائق أو اتركه فارغًا.",
+      "errTitle": "العنوان قصير جدًا.",
+      "errNoQuestions": "أضف سؤالًا واحدًا على الأقل.",
+      "errQuestionText": "كل سؤال يحتاج نصًا.",
+      "errTf": "صح/خطأ يتطلب خيارين.",
+      "errMcqOptions": "اختيار من متعدد يحتاج خيارين مكتوبين على الأقل.",
+      "errOneCorrect": "حدد إجابة صحيحة واحدة لكل سؤال."
+    },
+
+    "students": {
+      "global": {
+        "title": "طلابي",
+        "subtitle": "نظرة عامة على أداء جميع الطلاب في جميع مساراتك",
+        "searchPlaceholder": "البحث عن طالب (الاسم أو المعرف)...",
+        "empty": "لا يوجد طلاب مسجلين في مساراتك حتى الآن",
+        "table": {
+          "student": "الطالب",
+          "tracksCount": "مسارات مشتركة",
+          "overallProgress": "متوسط الإنجاز",
+          "avgQuizScore": "متوسط درجات الاختبارات"
+        }
+      },
+
+      "track": {
+        "title": "رؤية الطلاب",
+        "subtitle": "التسجيل والتقدم على هذا المسار. البحث مناسب لأعداد كبيرة.",
+        "searchPlaceholder": "ابحث بالاسم أو اسم المستخدم…",
+        "metaCount": "{{count}} مسجّل · {{lessons}} درس في الخطة",
+        "loadError": "تعذر تحميل الطلاب.",
+        "empty": "لا يوجد طلاب يطابقون البحث.",
+        "colStudent": "الطالب",
+        "colProgress": "الخطة الخطية",
+        "colLastActivity": "آخر نشاط",
+        "colQuizzes": "الاختبارات",
+        "colQuizzesPassed": "الاختبارات",
+        "quizzesPassed": "نجح في {{passed}} من {{total}}",
+        "noQuizzesOnTrack": "لا اختبارات على هذا المسار",
+        "colActions": "",
+        "avgScore": "متوسط {{n}}%",
+        "noQuizzes": "لا محاولات بعد",
+        "latestShort": "آخر: {{score}}% · {{status}}",
+        "pass": "نجاح",
+        "fail": "رسوب",
+        "viewDetail": "عرض",
+        "lastShort": "آخر",
+        "detailError": "تعذر تحميل تفاصيل الطالب.",
+        "enrolled": "تاريخ التسجيل",
+        "access": "الوصول",
+        "summaryProgress": "الخطة",
+        "lessons": "دروس",
+        "pending": "معلّق",
+        "lessonBreakdown": "قائمة الدروس",
+        "colLesson": "الدرس",
+        "colStatus": "الحالة",
+        "colLast": "آخر فتح",
+        "done": "مكتمل",
+        "pendingBadge": "معلّق",
+        "recentQuizzes": "آخر محاولات الاختبارات",
+        "colQuiz": "الاختبار",
+        "colScore": "الدرجة",
+        "colResult": "النتيجة",
+        "colWhen": "متى"
+      },
+
+      "details": {
+        "title": "تفاصيل الطالب",
+        "overview": "نظرة عامة",
+        "overallProgress": "معدل الإنجاز العام",
+        "averageScore": "متوسط الدرجات",
+        "quizzesPassed": "الاختبارات المجتازة",
+        "progressByTrack": "معدل الإنجاز حسب المسار",
+        "quizHistory": "سجل الاختبارات",
+        "table": {
+          "quiz": "الاختبار",
+          "track": "المسار",
+          "score": "الدرجة",
+          "status": "الحالة",
+          "date": "التاريخ"
+        },
+        "pass": "نجاح",
+        "fail": "رسوب"
+      }
+    }
+  },
+  "Student": {
+    "nav": {
+      "planner": "المخطط الدراسي"
+    },
+    "planner": {
+      "title": "المخطط الدراسي",
+      "subtitle": "اسحب الدروس والاختبارات إلى جدولك الأسبوعي. الحصص المباشرة ثابتة.",
+      "allTracks": "كل المسارات",
+      "clearFilter": "مسح التصفية",
+      "dragHint": "🎯 اسحب المهمة وأفلتها في الجدول لتحديد موعدها",
+      "weekTarget": "هدف هذا الأسبوع",
+      "todo": "اقتراحات الدراسة",
+      "loading": "جارٍ التحميل…",
+      "empty": "لا يوجد شيء لجدولته الآن.",
+      "saved": "تم الحفظ",
+      "saveError": "تعذر حفظ الموعد",
+      "week": "أسبوع",
+      "day": "يوم",
+      "agenda": "قائمة",
+      "today": "اليوم",
+      "prev": "السابق",
+      "next": "التالي"
+    }
+  },
+  "Auth": {
+    "loginTitle": "مرحباً بعودتك",
+    "loginSubtitle": "سجل دخولك لمتابعة التقدم والأداء",
+    "email": "البريد الإلكتروني أو اسم المستخدم",
+    "emailPlaceholder": "example@email.com أو اسم المستخدم",
+    "password": "كلمة المرور",
+    "passwordPlaceholder": "••••••••",
+    "forgotPassword": "نسيت كلمة المرور؟",
+    "loggingIn": "جاري التحقق…",
+    "signIn": "تسجيل الدخول",
+    "noAccount": "ليس لديك حساب؟",
+    "registerNow": "سجل الآن",
+    "demoAccounts": "حسابات تجريبية (وضع محلي)",
+    "demoParent": "ولي أمر",
+    "demoStudent": "طالب",
+    "demoAdmin": "مدير",
+    "logout": "تسجيل الخروج",
+    "registerSuccess": "تم إنشاء الحساب بنجاح.",
+    "passwordRegisterHint": "8 أحرف على الأقل، مع حرف إنجليزي ورقم واحد على الأقل.",
+    "errors": {
+      "generic": "حدث خطأ. تحقق من البيانات أو اتصالك بالخادم.",
+      "someError": "خطا فى الايميل او كلمة المرور"
+    }
+  },
+  "DashboardLayout": {
+    "searchPlaceholder": "بحث في لوحة التحكم…"
+  },
+  "Months": {
+    "short": {
+      "1": "ينا",
+      "2": "فبر",
+      "3": "مار",
+      "4": "أبر",
+      "5": "ماي",
+      "6": "يون",
+      "7": "يول",
+      "8": "أغس",
+      "9": "سبت",
+      "10": "أكت",
+      "11": "نوف",
+      "12": "ديس"
+    }
+  },
+  "Nav": {
+    "home": "الرئيسية",
+    "programs": "البرامج",
+    "pricing": "الأسعار",
+    "competitions": "المسابقات",
+    "blog": "المدونة",
+    "about": "من نحن",
+    "contact": "تواصل معنا"
+  },
+  "Header": {
+    "dashboard": "لوحة التحكم",
+    "logout": "خروج",
+    "login": "تسجيل الدخول",
+    "freeTrial": "تجربة مجانية"
+  },
+  "Admin": {
+    "nav": {
+      "dashboard": "لوحة التحكم",
+      "users": "المستخدمون",
+      "children": "ربط الأبناء",
+      "programs": "البرامج",
+      "sessions": "الدروس والمسارات",
+      "categories": "الفئات",
+      "payments": "المدفوعات",
+      "subscriptions": "الاشتراكات",
+      "reports": "التقارير",
+      "assessments": "التقييمات",
+      "coupons": "الكوبونات",
+      "content": "إدارة المحتوى",
+      "support": "الدعم",
+      "quizzes": "الاختبارات",
+      "certificates": "الشهادات",
+      "roles": "الأدوار والصلاحيات",
+      "profile": "الملف الشخصي",
+      "settings": "الإعدادات",
+      "bundles": "العروض المجمعة"
+    },
+    "tables": {
+      "name": "الاسم",
+      "email": "البريد الإلكتروني",
+      "role": "الدور",
+      "status": "الحالة",
+      "actions": "الإجراءات",
+      "date": "التاريخ"
+    },
+    "shell": {
+      "searchPlaceholder": "بحث في التحليلات والمستخدمين…",
+      "notifications": "الإشعارات",
+      "noNotifications": "لا توجد إشعارات حتى الآن",
+      "collapseSidebar": "طي القائمة",
+      "expandSidebar": "توسيع القائمة",
+      "brandSubtitle": "لوحة الإدارة",
+      "toggleLanguage": "تبديل اللغة",
+      "accountMenu": "خيارات الحساب",
+      "profileSettings": "الملف الشخصي"
+    },
+    "Profile": {
+      "title": "إعدادات الحساب",
+      "subtitle": "قم بإدارة معلوماتك الشخصية وتأمين حسابك",
+      "personalTab": "البيانات الشخصية",
+      "securityTab": "الأمان والخصوصية",
+      "personalInfo": "المعلومات الأساسية",
+      "personalDesc": "حدث اسمك وبريدك الإلكتروني الذي تستخدمه للدخول",
+      "fullName": "الاسم بالكامل",
+      "username": "اسم المستخدم",
+      "email": "البريد الإلكتروني",
+      "saveChanges": "حفظ التعديلات",
+      "changePass": "تغيير كلمة المرور",
+      "securityDesc": "تأكد من اختيار كلمة مرور قوية وفريدة لحماية حسابك",
+      "currentPass": "كلمة المرور الحالية",
+      "newPass": "كلمة المرور الجديدة",
+      "confirmPass": "تأكيد كلمة المرور الجديدة",
+      "updatePass": "تحديث كلمة المرور"
+    },
+    "analytics": {
+      "refresh": "تحديث",
+      "loadError": "تعذر تحميل بيانات لوحة التحكم. يرجى المحاولة مرة أخرى.",
+      "noPermission": "لا تملك صلاحية عرض التحليلات على مستوى المنصة",
+      "noPermissionHint": "يرجى التواصل مع المشرف لمنحك صلاحية الوصول إلى مؤشرات الأداء.",
+      "dashboardSearchPlaceholder": "بحث في لوحة التحكم…",
+      "growthChartPeriod": "أداء النمو ({{currency}})",
+      "monthly": "شهري",
+      "quarterly": "ربع سنوي",
+      "quickInsightsTitle": "مؤشرات سريعة",
+      "openTicketsTitle": "تذاكر مفتوحة",
+      "openTicketsHint": "يتطلب متابعة من فريق الدعم",
+      "registeredUsersTitle": "مستخدمون مسجلون",
+      "registeredUsersHint": "إجمالي الحسابات النشطة",
+      "quickActionsTitle": "إجراءات سريعة",
+      "actionAddUser": "إضافة مستخدم",
+      "actionReports": "التقارير",
+      "actionPrograms": "البرامج",
+      "noQuickActions": "لا توجد إجراءات متاحة حالياً",
+      "currencyInActivity": "ر.س",
+      "trendNeutral": "—",
+      "trendUp": "{{value}}% ↑",
+      "trendDown": "{{value}}% ↓",
+      "pageTitle": "لوحة التحكم",
+      "pageSubtitle": "نظرة عامة على النظام والتحليلات في الوقت الفعلي",
+      "stats": {
+        "revenue": "إجمالي الإيرادات",
+        "revenueValue": "{{amount}} {{currency}}",
+        "activeStudents": "الطلاب النشطين",
+        "pendingTickets": "تذاكر الدعم المعلقة",
+        "activePackages": "الباقات النشطة",
+        "activeSubscriptions": "الاشتراكات النشطة",
+        "parents": "أولياء الأمور المسجلين",
+        "children": "الأبناء المسجلين",
+        "total": "إجمالي المستخدمين"
+      },
+      "revenueChart": {
+        "title": "أداء الإيرادات",
+        "subtitle": "تتبع نمو الإيرادات الشهرية بناءً على المدفوعات المؤكدة. المبالغ بـ {{currency}}.",
+        "barTooltip": "{{amount}} {{currency}}",
+        "loadError": "تعذر تحميل مخطط أداء الإيرادات.",
+        "noData": "لم يتم العثور على سجلات مالية للفترة المحددة."
+      },
+      "activity": {
+        "title": "نبض العمليات",
+        "subtitle": "آخر أنشطة النظام والتغيرات اللحظية",
+        "payment": "عملية دفع جديدة",
+        "ticket": "تذكرة دعم جديدة",
+        "viewAll": "مشاهدة سجل النشاط"
+      }
+    },
+    "usersPage": {
+      "search": "ابحث بالاسم أو البريد…",
+      "allRoles": "كل الأدوار",
+      "adminsOnly": "المدراء فقط",
+      "staffOnly": "الموظفون فقط",
+      "parentsOnly": "أولياء الأمور فقط",
+      "teachersOnly": "المعلمون فقط",
+      "childrenOnly": "الأبناء فقط",
+      "allStatuses": "كل الحالات",
+      "createUser": "إنشاء مستخدم",
+      "refresh": "تحديث",
+      "userIdentity": "هوية المستخدم",
+      "role": "الدور",
+      "status": "الحالة",
+      "joinedOn": "تاريخ الانضمام",
+      "settings": "الإجراءات",
+      "totalPersonnel": "إجمالي الحسابات: {{count}}",
+      "emptyTitle": "لا توجد نتائج",
+      "emptyMessage": "جرّب تعديل البحث أو عوامل التصفية.",
+      "manageProfile": "إدارة الملف",
+      "forcePassword": "إعادة تعيين كلمة المرور",
+      "manageTracks": "إدارة المسارات",
+      "viewPerformance": "عرض الأداء",
+      "roles": {
+        "ADMIN": "مدير",
+        "STAFF": "موظف",
+        "PARENT": "ولي أمر",
+        "CHILD": "طالب",
+        "TEACHER": "معلم"
+      },
+      "statuses": {
+        "PENDING": "قيد المراجعة",
+        "APPROVED": "مقبول",
+        "REJECTED": "مرفوض",
+        "SUSPENDED": "موقوف"
+      },
+      "create": {
+        "title": "مستخدم جديد",
+        "subtitle": "إنشاء حساب",
+        "fullName": "الاسم الكامل",
+        "email": "البريد الإلكتروني",
+        "password": "كلمة المرور الأولية",
+        "passwordHint": "8 أحرف على الأقل.",
+        "platformRole": "دور المنصة",
+        "assignCustomRole": "تعيين دور مخصص",
+        "loadingRoles": "جاري تحميل الأدوار…",
+        "selectRole": "اختر دوراً",
+        "staffRoleHint": "يحدد صلاحيات التعديل داخل لوحة الإدارة.",
+        "adminWarning": "المدير الأعلى يتجاوز جميع قيود الصلاحيات. استخدم بحذر.",
+        "submit": "إنشاء الحساب",
+        "required": "يرجى تعبئة الحقول المطلوبة",
+        "staffRoleRequired": "اختر دوراً مخصصاً لهذا الموظف"
+      },
+      "edit": {
+        "title": "تعديل الهوية",
+        "subtitle": "المستوى والدور",
+        "name": "الاسم الظاهر",
+        "email": "البريد الأساسي",
+        "ecosystemRole": "دور المنصة",
+        "statusState": "حالة التسجيل",
+        "customRole": "الدور المخصص",
+        "loadingRoles": "جاري تحميل الأدوار…",
+        "submit": "حفظ التغييرات"
+      },
+      "password": {
+        "title": "إعادة تعيين أمنية",
+        "subtitle": "عملية حساسة",
+        "warning": "أنت تقوم بإعادة تعيين إدارية لكلمة مرور: {{name}}",
+        "newPassword": "كلمة المرور الجديدة",
+        "submit": "تنفيذ الإعادة"
+      },
+      "toast": {
+        "fetchError": "تعذر تحميل المستخدمين",
+        "createSuccess": "تم إنشاء المستخدم \"{{name}}\"",
+        "updateSuccess": "تم تحديث البيانات",
+        "passwordSuccess": "تم تحديث بيانات الدخول",
+        "createError": "تعذر إنشاء المستخدم",
+        "updateError": "تعذر حفظ التغييرات",
+        "passwordError": "تعذر إعادة التعيين",
+        "rolesError": "تعذر تحميل الأدوار المخصصة"
+      },
+      "performance": {
+        "teacherTitle": "أداء المعلمين — المشرف",
+        "export": "تصدير التقرير",
+        "totalStudents": "إجمالي الطلاب",
+        "avgScore": "متوسط الدرجات",
+        "completion": "معدل إتمام المسارات",
+        "activeTracks": "المسارات المعينة",
+        "trackFocus": "السياق التعليمي",
+        "trackFocusDesc": "نظرة عامة على المسارات التي يديرها المعلم.",
+        "engagement": "معدل التفاعل الشامل",
+        "highImpact": "تم رصد تأثير أكاديمي إيجابي",
+        "noImpact": "في انتظار تفاعل المسارات",
+        "health": "صحة المسار التعليمي",
+        "onTrack": "التقدم في المنهج مُحسَّن",
+        "attentionNeeded": "يُنصح بمتابعة المشاركة",
+        "range": {
+          "7d": "7 أيام",
+          "30d": "30 يومًا",
+          "all": "الكل",
+          "custom": "مخصص"
+        }
+      },
+      "teacherTracks": {
+        "title": "تعيين المسارات",
+        "desc": "تعيين المساقات لـ {{name}}"
+      }
+    },
+"programsPage": {
+      "title": "إدارة البرامج التعليمية",
+      "searchPlaceholder": "بحث بالاسم أو المستوى…",
+      "create": "إضافة برنامج",
+      "createProgram": "إنشاء برنامج",
+      "editProgram": "تعديل البرنامج",
+      "newProgram": "برنامج جديد",
+      "table": {
+        "title": "البرنامج",
+        "price": "السعر",
+        "age": "العمر",
+        "status": "الحالة",
+        "actions": "الإجراءات"
+      },
+      "programDetails": "تفاصيل البرنامج",
+      "targetAge": "الفئة العمرية",
+      "duration": "المدة",
+      "years": "سنوات",
+      "months": "شهر",
+      "sessionsPerWeek": "جلسات/الأسبوع",
+      "emptyTitle": "لا توجد برامج",
+      "confirmDelete": "هل أنت متأكد من حذف هذا البرنامج؟",
+      "titleLabel": "العنوان",
+      "description": "الوصف",
+      "minAge": "الحد الأدنى للعمر",
+      "maxAge": "الحد الأقصى للعمر",
+      "durationMonths": "المدة (أشهر)",
+      "sessionsPerWeekLabel": "الجلسات بالأسبوع",
+      "priceLabel": "السعر",
+      "thumbnail": "رابط الصورة",
+      "skills": "المهارات",
+      "cancel": "إلغاء",
+      "saveChanges": "حفظ التغييرات",
+      "toast": {
+        "fetchError": "تعذر تحميل البرامج",
+        "createSuccess": "تم إنشاء البرنامج بنجاح",
+        "updateSuccess": "تم تحديث بيانات البرنامج",
+        "error": "حدث خطأ في العملية"
+      },
+      "weeklySchedules": "المواعيد الأسبوعية الثابتة",
+      "addSchedule": "إضافة موعد",
+      "noSchedules": "لا توجد مواعيد ثابتة محددة لهذا الكورس المباشر.",
+      "days": {
+        "0": "الأحد",
+        "1": "الاثنين",
+        "2": "الثلاثاء",
+        "3": "الأربعاء",
+        "4": "الخميس",
+        "5": "الجمعة",
+        "6": "السبت"
+      }
+    },
+    "categoriesPage": {
+      "title": "باقات الاشتراكات والفئات",
+      "searchPlaceholder": "بحث عن باقة…",
+      "create": "باقة جديدة",
+      "level": {
+        "BASIC": "أساسية",
+        "ADVANCED": "متقدمة",
+        "PREMIUM": "مميزة"
+      },
+      "table": {
+        "name": "اسم الباقة",
+        "features": "المميزات",
+        "price": "السعر",
+        "status": "الحالة المفعلة",
+        "actions": "تحكم"
+      },
+      "form": {
+        "name": "اسم الباقة",
+        "description": "إدارة باقات الاشتراك والمميزات المرفقة بكل باقة لضمان تقديم أفضل تجربة تعليمية.",
+        "level": "مستوى الباقة",
+        "price": "السعر (SAR)",
+        "tracks": "عدد المسارات المتاحة",
+        "features": "مزايا الباقة",
+        "hasCertificate": "شهادة إتمام",
+        "hasCoach": "مدرب شخصي",
+        "hasPrivate": "جلسات خاصة"
+      },
+      "toast": {
+        "fetchError": "تعذر تحميل الباقات",
+        "createSuccess": "تم إنشاء الباقة بنجاح",
+        "updateSuccess": "تم تحديث الباقة",
+        "statusUpdateSuccess": "تم تغيير حالة الباقة",
+        "error": "فشلت العملية"
+      }
+    },
+    "couponsPage": {
+      "title": "القسائم والتسويق",
+      "searchPlaceholder": "بحث عن كود أو رمز…",
+      "create": "قسيمة جديدة",
+      "table": {
+        "code": "الكود",
+        "discount": "الخصم",
+        "usage": "الاستخدام",
+        "status": "الحالة",
+        "expiry": "تاريخ الانتهاء",
+        "actions": "الإجراءات"
+      },
+"form": {
+      "code": "كود القسيمة",
+      "codePlaceholder": "مثال: WELCOME10",
+      "discountType": "نوع الخصم",
+      "discountValue": "قيمة الخصم",
+      "usageLimit": "حد الاستخدام",
+      "usageLimitPlaceholder": "غير محدود",
+      "expiryDate": "تاريخ الانتهاء",
+      "isActive": "تفعيل القسيمة",
+      "percentage": "نسبة مئوية (%)",
+      "fixed": "مبلغ ثابت (SAR)"
+    },
+      "toast": {
+        "fetchError": "تعذر تحميل القسائم",
+        "createSuccess": "تم إنشاء القسيمة بنجاح",
+        "updateSuccess": "تم تحديث القسيمة",
+        "error": "حدث خطأ في العملية"
+      }
+    },
+    "childrenPage": {
+      "title": "ربط الأبناء والطلاب",
+      "searchPlaceholder": "بحث عن طالب أو ولي أمر…",
+      "create": "ربط ابن جديد",
+      "noParents": "لم يتم العثور على أولياء الأمور",
+      "table": {
+        "name": "اسم الطالب",
+        "username": "اسم المستخدم",
+        "parent": "هوية ولي الأمر",
+        "joinDate": "تاريخ الانضمام",
+        "status": "الحالة",
+        "actions": "الإجراءات"
+      },
+"form": {
+        "fullName": "الاسم الكامل للطالب",
+        "username": "اسم مستخدم الدخول",
+        "password": "كلمة المرور الأولية",
+        "parent": "اختر ولي الأمر",
+        "parentPlaceholder": "بحث عن ولي أمر بالبريد أو الاسم...",
+        "parentSearchPlaceholder": "بحث...",
+        "age": "العمر",
+        "isActive": "حساب نشط"
+      },
+      "toast": {
+        "fetchError": "تعذر تحميل بيانات الطلاب",
+        "createSuccess": "تم إنشاء حساب الابن وربطه بنجاح",
+        "updateSuccess": "تم تحديث ملف الطالب",
+        "error": "فشل في مزامنة بيانات الطالب"
+      }
+    },
+    "sessionsPage": {
+      "title": "إدارة المسارات والدروس",
+      "searchPlaceholder": "بحث عن الدروس...",
+      "create": "إضافة درس جديد",
+      "phase": {
+        "contentProvisioning": "المرحلة الثانية: توفير المحتوى"
+      },
+      "contentType": {
+        "VIDEO": "فيديو",
+        "PDF": "ملف (PDF)",
+        "TEXT": "نص / مقالة",
+        "MIXED": "مختلط"
+      },
+      "learningPath": {
+        "title": "الفصول / مستويات التعلم",
+        "create": "فصل جديد",
+        "name": "عنوان الفصل",
+        "order": "ترتيب الظهور"
+      },
+      "table": {
+        "title": "عنوان الدرس",
+        "track": "البرنامج / المسار",
+        "path": "الفصل",
+        "type": "نوع المحتوى",
+        "order": "الترتيب",
+        "status": "الحالة"
+      },
+      "form": {
+        "track": "اختر البرنامج",
+        "trackPlaceholder": "بحث عن برنامج...",
+        "trackSearchPlaceholder": "البحث عن البرامج...",
+        "path": "الفصل التعليمي (اختياري)",
+        "pathPlaceholder": "اختر فصلاً...",
+        "title": "عنوان الدرس",
+        "contentType": "نوع المحتوى",
+        "videoUrl": "رابط الفيديو (Streaming)",
+        "videoUrlPlaceholder": "https://vimeo.com/...",
+        "pdfUrl": "رابط ملف PDF",
+        "pdfUrlPlaceholder": "https://s3.aws.com/...",
+        "textContent": "المحتوى النصي",
+        "textContentPlaceholder": "نبذة موجزة عن هذا الفصل...",
+        "duration": "المدة (بالدقائق)",
+        "order": "ترتيب الظهور",
+        "isActive": "درس نشط"
+      },
+      "toast": {
+        "fetchError": "تعذر تحميل الدروس",
+        "createSuccess": "تم نشر الدرس بنجاح",
+        "pathCreateSuccess": "تم إضافة الفصل الجديد",
+        "updateSuccess": "تم تحديث بيانات الدرس",
+        "error": "فشل في مزامنة المحتوى"
+      }
+    },
+    "subscriptionsPage": {
+      "title": "الاشتراكات والالتحاقات",
+      "tabs": {
+        "subscriptions": "اشتراكات الباقات",
+        "enrollments": "التحاقات المسارات"
+      },
+      "create": "ربط طالب جديد",
+      "form": {
+        "student": "اختر الطالب",
+        "studentPlaceholder": "بحث عن طالب...",
+        "type": "نوع الالتحاق",
+        "typePackage": "اشتراك في باقة أساسية",
+        "typeTrack": "التحاق مباشر بمسار",
+        "package": "اختر الباقة",
+        "packagePlaceholder": "بحث عن باقة...",
+        "track": "اختر المسار",
+        "trackPlaceholder": "بحث عن مسار...",
+        "startDate": "تاريخ البدء",
+        "endDate": "تاريخ الانتهاء",
+        "endDateHint": "اتركه فارغاً للحساب التلقائي بناءً على الباقة",
+        "status": "الحالة الأولية"
+      },
+      "table": {
+        "student": "الطالب",
+        "plan": "الباقة / المسار",
+        "accessLevel": "مستوى الوصول",
+        "enrolledAt": "تاريخ الالتحاق",
+        "dates": "المدة والتواريخ",
+        "status": "الحالة",
+        "actions": "إجراءات"
+      },
+      "phase": {
+        "accessProvisioning": "المستوى الثالث: توفير الوصول",
+        "contentProvisioning": "المرحلة الثانية: توفير المحتوى"
+      },
+      "status": {
+        "ACTIVE": "نشط",
+        "EXPIRED": "منتهي",
+        "CANCELED": "ملغي",
+        "PENDING_PAYMENT": "بانتظار الدفع"
+      },
+      "toast": {
+        "fetchError": "تعذر تحميل البيانات",
+        "createSuccess": "تم تسجيل الطالب بنجاح",
+        "updateSuccess": "تم تحديث الحالة",
+        "error": "فشل في إتمام عملية التسجيل"
+      }
+    },
+"paymentsPage": {
+  "title": "المدفوعات",
+  "subtitle": "عرض جميع المدفوعات",
+
+  "empty": "لا توجد مدفوعات",
+
+  "table": {
+    "invoice": "رقم الفاتورة",
+    "parent": "ولي الأمر / الدافع",
+    "amount": "المبلغ",
+    "date": "تاريخ الدفع",
+    "status": "الحالة",
+    "actions": "إجراءات",
+
+    "description": "الوصف",
+    "method": "طريقة الدفع"
+  },
+
+  "status": {
+    "PAID": "مدفوع",
+    "PENDING": "قيد الانتظار",
+    "FAILED": "فشل الدفع",
+    "REFUNDED": "مسترجع",
+    "OVERDUE": "متأخر"
+  },
+
+  "details": {
+    "title": "تفاصيل العملية المالية",
+    "gateway": "بوابة الدفع",
+    "orderId": "رقم الطلب في البوابة",
+    "subscription": "الاشتراك المرتبط",
+    "child": "الطالب",
+    "package": "الباقة",
+    "items": "العناصر / المسارات",
+    "totalAmount": "المبلغ الإجمالي",
+    "manualVerification": "تحقق يدوي",
+    "adminStatusOverride": "تعديل حالة الدفع (إداري)",
+    "statusPlaceholder": "تحديث الحالة",
+    "paidActivatesNote": "ملاحظة: وضع الحالة على «مدفوع» يفعّل اشتراك الطالب والتحاقاته تلقائياً.",
+    "guestPayer": "دافع ضيف",
+    "childOf": "الطالب: {{name}}",
+    "refLabel": "مرجع"
+  },
+
+  "toast": {
+    "fetchError": "تعذر تحميل المدفوعات",
+    "updateSuccess": "تم تحديث حالة الدفع بنجاح",
+    "error": "فشل في تحديث العملية"
+  }
+},
+    "ticketsPage": {
+      "title": "مركز المساعدة والدعم الفني",
+      "table": {
+        "id": "رقم المرجع",
+        "user": "ولي الأمر / الطالب",
+        "subject": "موضوع الاستفسار",
+        "priority": "الأهمية",
+        "status": "الحالة",
+        "date": "تاريخ الإنشاء",
+        "actions": "الإجراءات"
+      },
+      "status": {
+        "OPEN": "مفتوح",
+        "IN_PROGRESS": "قيد المعالجة",
+        "CLOSED": "تم الحل"
+      },
+      "priority": {
+        "LOW": "منخفضة",
+        "MEDIUM": "متوسطة",
+        "HIGH": "عالية جداً"
+      },
+      "detail": {
+        "title": "محادثة الدعم الفني",
+        "originalMessage": "الطلب الأصلي",
+        "closed": "تذكرة مغلقة",
+        "closedMessage": "هذه التذكرة مغلقة وسجلها للقراءة فقط.",
+        "replyPlaceholder": "اكتب ردك هنا…",
+        "archivedNote": "هذه التذكرة مغلقة وسجلها للقراءة فقط.",
+        "submit": "إرسال الرد",
+        "updateStatus": "حالة التذكرة"
+      },
+      "toast": {
+        "fetchError": "تعذر تحميل تذاكر الدعم",
+        "replySuccess": "تم إرسال الرد بنجاح",
+        "updateSuccess": "تم تحديث الحالة",
+        "error": "فشل في إرسال الرسالة"
+      }
+    },
+    "supportPage": {
+      "title": "الدعم",
+      "subtitle": "طلبات التجربة المجانية والدعم",
+      "trialRequests": "طلبات التجربة المجانية",
+      "empty": "لا توجد طلبات",
+      "colParentName": "اسم ولي الأمر",
+      "colChildName": "اسم الطفل",
+      "colChildAge": "العمر",
+      "colEmail": "البريد الإلكتروني",
+      "colPhone": "الهاتف",
+      "colProgram": "البرنامج",
+      "colPreferredDate": "التاريخ المفضل",
+      "colStatus": "الحالة",
+      "statusPending": "قيد الانتظار",
+      "statusConfirmed": "مؤكد"
+    },
+
+    "quizzes": {
+      "pageTitle": "الاختبارات والامتحانات",
+      "pageSubtitle": "إدارة تقييمات الدروس والامتحانات النهائية للمسارات",
+      "addQuiz": "تقييم جديد",
+      "editQuiz": "تعديل التقييم",
+      "noQuizzes": "لم يتم العثور على اختبارات",
+      "deleteConfirm": "هل أنت متأكد من حذف هذا التقييم؟",
+      "title": "عنوان التقييم",
+      "type": "النوع",
+      "passingScore": "درجة النجاح (%)",
+      "timeLimit": "الوقت المحدد (بالدقائق)",
+      "maxAttempts": "أقصى عدد محاولات",
+      "context": "سياق الاختبار",
+      "linkToSession": "ربط بدرس محدد",
+      "linkToTrack": "ربط بمسار كامل",
+      "status": {
+        "LESSON_QUIZ": "اختبار درس",
+        "TRACK_FINAL": "امتحان مسار",
+        "COMPETITION": "مسابقة"
+      },
+      "questions": "الأسئلة",
+      "addQuestion": "إضافة سؤال",
+      "questionText": "نص السؤال",
+      "questionType": "نوع السؤال",
+      "points": "درجة السؤال",
+      "options": "خيارات الإجابة",
+      "addOption": "إضافة خيار",
+      "isCorrect": "إجابة صحيحة",
+      "mcq": "اختيار من متعدد",
+      "trueFalse": "صح / خطأ",
+      "toast": {
+        "saveSuccess": "تم حفظ التقييم بنجاح",
+        "fetchError": "تعذر تحميل الاختبارات",
+        "deleteConfirm": "هل أنت متأكد من حذف هذا التقييم؟",
+        "deleteSuccess": "تم حذف التقييم بنجاح"
+      },
+      "validationAtLeastOneCorrect": "يرجى تحديد إجابة واحدة صحيحة على الأقل لكل سؤال",
+      "titlePlaceholder": "مثال: اختبار نهائي في بايثون",
+      "questionPlaceholder": "اكتب نص السؤال هنا…",
+      "optionPlaceholder": "خيار {{n}}",
+      "engineSubtitle": "محرك التقييم",
+      "questionNumber": "سؤال {{n}}",
+      "trueLabel": "صحيح",
+      "falseLabel": "خطأ",
+      "validation": {
+        "atLeastOneCorrect": "يرجى تحديد إجابة واحدة صحيحة على الأقل",
+        "atLeastOneQuestion": "يرجى إضافة سؤال واحد على الأقل"
+      }
+    },
+    "rolesPage": {
+      "title": "الأدوار وصلاحيات الوصول",
+      "subtitle": "قم بتعريف صلاحيات الوصول الدقيقة وتعيينها للموظفين لتأمين وحماية بيانات المنصة.",
+      "newRole": "إنشاء دور مخصص",
+      "moreUsers": "+{{count}} أكثر",
+      "editTitle": "تعديل الدور: {{name}}",
+      "createTitle": "إنشاء دور مخصص جديد",
+      "formSubtitle": "إعدادات الصلاحيات",
+      "roleName": "مسمى الدور",
+      "roleNamePlaceholder": "مثلاً: مدير محتوى",
+      "description": "وصف مختصر",
+      "descriptionPlaceholder": "اشرح مسؤوليات هذا الدور...",
+      "permissionMatrix": "مصفوفة الصلاحيات (وصول دقيق)",
+      "resource": "عنصر النظام",
+      "all": "الكل",
+      "permissionsCount": "تم اختيار {{selected}} من أصل {{total}} صلاحية",
+      "selectAll": "تحديد الكل",
+      "clearAll": "إلغاء التحديد",
+      "loading": "جاري تحميل الأدوار الأمنية...",
+      "emptyTitle": "لا توجد أدوار مخصصة",
+      "emptyDesc": "تسمح الأدوار بتفويض مهام محددة للموظفين دون منحهم صلاحيات مدير كاملة.",
+      "roleNameRequired": "يرجى إدخال مسمى للدور",
+      "selectPermission": "يجب اختيار صلاحية واحدة على الأقل لهذا الدور",
+      "updateSuccess": "تم تحديث الدور \"{{name}}\" بنجاح",
+      "createSuccess": "تم إنشاء الدور \"{{name}}\" بنجاح",
+      "deleteConfirm": "هل أنت متأكد من حذف دور \"{{name}}\" بشكل نهائي؟",
+      "deleteSuccess": "تم حذف الدور بنجاح",
+      "fetchError": "تعذر مزامنة الأدوار من الخادم",
+      "saveFailed": "فشل في حفظ التغييرات الأمنية",
+      "deleteFailed": "هذا الدور نشط حالياً ولا يمكن حذفه",
+      "editRole": "تعديل الصلاحيات",
+      "deleteRole": "حذف الدور",
+      "reassignFirst": "يوجد مستخدمون مرتبطون بهذا الدور",
+      "createRole": "إنشاء الدور",
+      "updateRole": "تحديث الدور",
+      "tablePermissions": "الصلاحيات المفعلة",
+      "tableAssignedUsers": "الموظفون المرتبطون"
+    },
+    "performancePage": {
+      "title": "التقييمات والنتائج",
+      "subtitle": "متابعة تقدم الطالب، درجات الاختبارات، والمشاريع المقدمة.",
+      "toast": {
+        "fetchError": "تعذر تحميل بيانات الأداء"
+      },
+      "stats": {
+        "avgScore": "معدل الدرجات",
+        "totalQuizzes": "إجمالي الاختبارات",
+        "passedQuizzes": "الاختبارات المجتازة",
+        "projectsSubmitted": "المشاريع"
+      },
+      "table": {
+        "quizName": "التقييم",
+        "score": "الدرجة",
+        "status": "النتيجة",
+        "date": "تاريخ التقديم",
+        "duration": "المدة (دقائق)"
+      },
+      "passed": "مجتاز",
+      "failed": "لم يجتز",
+      "noAttempts": "لم يتم العثور على محاولات لهذا الطالب.",
+      "overallPerformance": "الأداء العام",
+      "backToStudents": "العودة للطلاب"
+    },
+    "assessments": {
+      "allTitle": "كافة التقييمات",
+      "subtitle": "تتبع أداء الطلاب في الاختبارات عبر المنصة",
+      "searchPlaceholder": "تصفية حسب اسم الطالب أو الاختبار...",
+      "tableTitle": "نشاط الاختبارات الأخير",
+      "tableSubtitle": "نظرة سريعة على أحدث التقييمات المكتملة",
+      "noResults": "لم يتم العثور على محاولات تقييم",
+      "toast": {
+        "fetchError": "تعذر تحميل التقييمات"
+      },
+      "tips": {
+        "title": "بحث سريع",
+        "search": "قم بالتصفية حسب اسم الطالب أو عنوان الاختبار للعثور على السجلات بسرعة.",
+        "detailsTitle": "تعمق في التفاصيل",
+        "details": "انقر على اسم الطالب لعرض سجل أداءه الأكاديمي الكامل ومشاريعهم."
+      }
+    },
+    "common": {
+      "view": "عرض",
+      "edit": "تعديل",
+      "delete": "حذف",
+      "save": "حفظ",
+      "cancel": "إلغاء",
+      "addNew": "إضافة جديد",
+      "searchPlaceholder": "بحث…",
+      "confirmDelete": "هل أنت متأكد من حذف هذا العنصر؟",
+      "deleteSuccess": "تم الحذف بنجاح",
+      "deleteError": "تعذر حذف العنصر",
+      "statusUpdateSuccess": "تم تحديث الحالة بنجاح",
+      "error": "حدث خطأ أثناء الحفظ",
+      "retry": "يرجى المحاولة مرة أخرى",
+      "filters": "تصفية",
+      "active": "نشط",
+      "inactive": "غير نشط",
+      "actions":"إجراءات"
+    },
+    "contentPage": {
+      "navTitle": "إدارة المحتوى",
+      "title": "إدارة المحتوى",
+      "subtitle": "المدونة، مشاريع الطلاب للصفحة الرئيسية، والأسئلة الشائعة",
+      "fetchError": "تعذر تحميل المحتوى",
+      "tabBlog": "المدونة",
+      "tabProjects": "مشاريع الطلاب",
+      "tabFaq": "الأسئلة الشائعة",
+      "addArticle": "مقال جديد",
+      "addProject": "مشروع جديد",
+      "addFaq": "سؤال جديد",
+      "colTitle": "العنوان",
+      "colSlug": "الرابط",
+      "colAuthor": "المؤلف",
+      "colPublished": "النشر",
+      "emptyBlog": "لا توجد مقالات بعد.",
+      "emptyProjects": "لا توجد مشاريع معروضة بعد.",
+      "emptyFaq": "لا توجد أسئلة شائعة بعد.",
+      "bannersLink": "البنرات والوسائط",
+      "projectCreated": "تم إضافة المشروع بنجاح",
+      "projectUpdated": "تم تحديث المشروع بنجاح",
+      "projectDeleted": "تم حذف المشروع",
+      "faqCreated": "تم إضافة السؤال بنجاح",
+      "faqUpdated": "تم تحديث السؤال بنجاح",
+      "faqDeleted": "تم حذف السؤال",
+      "editProject": "تعديل المشروع",
+      "newProject": "مشروع جديد",
+      "projectFormHint": "يُعرض على الصفحة العامة للموقع.",
+      "projectTitle": "عنوان المشروع",
+      "studentName": "اسم الطالب",
+      "projectDescription": "الوصف",
+      "imageUrl": "رابط الصورة",
+      "projectUrl": "رابط المشروع (اختياري)",
+      "orderLabel": "ترتيب الظهور",
+      "activeLabel": "نشط على الصفحة الرئيسية",
+      "openProject": "فتح الرابط",
+      "editFaq": "تعديل السؤال",
+      "newFaq": "سؤال شائع جديد",
+      "faqQuestion": "السؤال",
+      "faqAnswer": "الإجابة",
+      "faqCategory": "التصنيف",
+      "faqCategoryPlaceholder": "عام، الاشتراكات، …"
+    },
+    "cmsPage": {
+      "title": "محتوى الموقع (CMS)",
+      "subtitle": "إدارة بنرات التسويق والمقالات الخاصة بالموقع التعريفي.",
+      "tabArticles": "المقالات والأخبار",
+      "tabBanners": "البنرات التسويقية",
+      "searchPlaceholder": "بحث بالعنوان...",
+      "fetchError": "تعذر مزامنة المحتوى من الخادم",
+      "articles": {
+        "tab": "المدونة والمقالات",
+        "new": "مقال جديد",
+        "createTitle": "كتابة مقال جديد",
+        "editTitle": "تعديل مقال: {{title}}",
+        "formDesc": "حدد العنوان، الرابط المختصر، والمحتوى للموقع العام.",
+        "tableTitle": "بيانات المقال",
+        "tableStatus": "حالة الظهور",
+        "tableDate": "تاريخ النشر",
+        "titleLabel": "عنوان المقال",
+        "titlePlaceholder": "مثلاً: افتتاح الأكاديمية الجديد",
+        "slugPlaceholder": "مثال: academy-opening",
+        "slugLabel": "الرابط المختصر (Slug)",
+        "imageLabel": "رابط صورة الغلاف",
+        "imageUrlPlaceholder": "https://…",
+        "displayAuthorLabel": "اسم المؤلف (للعرض)",
+        "displayAuthorPlaceholder": "يظهر للزوار إن وُجد",
+        "contentLabel": "محتوى المقال",
+        "publishLabel": "نشر على الموقع",
+        "publishDesc": "اجعل هذا المقال مرئياً للزوار",
+        "createSuccess": "تم نشر المقال بنجاح",
+        "updateSuccess": "تم تحديث المقال",
+        "statusUpdated": "تم تغيير حالة الظهور",
+        "deleteSuccess": "تم حذف المقال",
+        "error": "حدث خطأ أثناء الحفظ",
+        "empty": "لا توجد مقالات حالياً. ابدأ الكتابة للتفاعل مع جمهورك."
+      },
+      "banners": {
+        "tab": "البنرات والوسائط",
+        "new": "إضافة بنر",
+        "createTitle": "إضافة بنر تسويقي جديد",
+        "editTitle": "تعديل بيانات البنر",
+        "formDesc": "اختر صوراً عالية الجودة لمواقع محددة في الموقع.",
+        "tablePreview": "معاينة الوسائط",
+        "tablePosition": "الموقع",
+        "tableStatus": "الحالة",
+        "titleLabel": "العنوان الداخلي",
+        "titlePlaceholder": "مثلاً: عرض صيف 2026",
+        "imageLabel": "رابط الصورة",
+        "linkLabel": "رابط التوجيه (اختياري)",
+        "positionLabel": "مكان الظهور",
+        "orderLabel": "ترتيب الأولوية",
+        "activeLabel": "حالة البنر",
+        "activeDesc": "تفعيل هذا البنر للزوار الحاليين",
+        "posHero": "القسم الرئيسي (Hero)",
+        "posSidebar": "القائمة الجانبية",
+        "posPopup": "نافذة منبثقة",
+        "createSuccess": "تم إضافة البنر بنجاح",
+        "updateSuccess": "تم تحديث بيانات البنر",
+        "statusUpdated": "تم تحديث حالة البنر",
+        "deleteSuccess": "تم إزالة البنر",
+        "error": "حدث خطأ أثناء حفظ البنر",
+        "empty": "لا توجد بنرات نشطة. أضف وسائط لجذب الانتباه."
+      }
+    },
+        "bundles": {
+      "title": "إدارة العروض المجمعة",
+      "subtitle": "إنشاء وتعديل وحذف العروض الخاصة للمسارات لتشجيع التسجيل",
+      "create": "إنشاء عرض جديد",
+      "edit": "تعديل العرض",
+      "table": {
+        "title": "اسم العرض",
+        "price": "السعر المخفض",
+        "tracksCount": "عدد المسارات",
+        "status": "الحالة",
+        "actions": "الإجراءات"
+      },
+      "form": {
+        "title": "عنوان العرض",
+        "description": "وصف العرض (اختياري)",
+        "discountedPrice": "السعر المخفض (SAR)",
+        "isActive": "تفعيل العرض",
+        "selectTracks": "اختر المسارات",
+        "originalPrice": "القيمة الأصلية الإجمالية: {{price}} SAR"
+      },
+      "toast": {
+        "fetchError": "تعذر تحميل العروض",
+        "createSuccess": "تم إنشاء العرض بنجاح",
+        "updateSuccess": "تم تحديث العرض بنجاح",
+        "deleteSuccess": "تم حذف العرض بنجاح",
+        "error": "حدث خطأ أثناء العملية"
+      }
+    }
+  },
+  "Parent": {
+    "nav": {
+      "dashboard": "الرئيسية",
+      "store": "المتجر",
+      "children": "أبنائي",
+      "reports": "التقارير الأسبوعية",
+      "payments": "الفوترة",
+      "support": "الدعم",
+      "settings": "الإعدادات"
+    },
+    "shell": {
+      "searchPlaceholder": "ابحث في لوحة الأسرة…"
+    },
+    "childStrip": {
+      "label": "متابعة",
+      "placeholder": "اختر ابناً",
+      "noChildren": "لا توجد ملفات متعلّقة بحسابك بعد. يمكن لفريقنا مساعدتك في التسجيل."
+    },
+    "addLearner": {
+      "title": "إضافة متعلم جديد",
+      "description": "أنشئ ملفاً للمتعلم وبيانات دخوله. سيسجّل الطفل باسم المستخدم وكلمة المرور التي تختارها.",
+      "openButton": "إضافة متعلم",
+      "fullName": "الاسم الكامل",
+      "age": "العمر (اختياري)",
+      "ageError": "إن وُجد، يجب أن يكون العمر بين 3 و 25.",
+      "gradeLevel": "الصف / المستوى (اختياري)",
+      "gradePlaceholder": "مثال: الصف الثالث",
+      "username": "اسم المستخدم (لتسجيل الدخول)",
+      "password": "كلمة المرور",
+      "confirmPassword": "تأكيد كلمة المرور",
+      "passwordMismatch": "كلمتا المرور غير متطابقتين",
+      "submit": "إنشاء الملف",
+      "success": "تم إنشاء ملف المتعلم."
+    },
+    "dashboard": {
+      "badge": "لوحة الأسرة",
+      "title": "مرحباً بك",
+      "subtitle": "نظرة هادئة على الاشتراكات والتقدم والمدفوعات.",
+      "viewChildren": "عرض كل الأبناء",
+      "loadError": "تعذر تحميل لوحة التحكم. حدّث الصفحة.",
+      "stats": {
+        "children": "المتعلمون",
+        "subscriptions": "باقات نشطة",
+        "pendingPayments": "مدفوعات معلّقة",
+        "notifications": "تنبيهات غير مقروءة"
+      },
+      "learners": "المتعلمون",
+      "all": "الكل",
+      "noChildren": "لا توجد ملفات بعد.",
+      "ageYears": "{{age}} سنة",
+      "activePlan": "باقة نشطة",
+      "noActiveSub": "لا يوجد اشتراك نشط",
+      "tracks": "مسارات",
+      "recentPayments": "أحدث المدفوعات",
+      "noPayments": "لا توجد مدفوعات بعد.",
+      "subscriptionAlerts": {
+        "title": "تذكيرات الاشتراك",
+        "expired": "{{name}} — انتهت {{plan}} في {{date}}.",
+        "expiringSoon": "{{name}} — تنتهي {{plan}} خلال {{days}} أيام (في {{date}}).",
+        "viewLearner": "عرض المتعلم"
+      },
+      "emptyFamily": {
+        "title": "مرحباً — اربط متعلماً لتظهر لك المؤشرات",
+        "body": "عند ربط أول ملف لطفلك، ستظهر لك التقدم والاختبارات والشهادات والفوترة في مكان واحد.",
+        "cta": "الذهاب إلى أبنائي"
+      },
+      "subscribeBanner": {
+        "title": "قم بالاشتراك لأبنائك في مساراتنا التعليمية لبدء الرحلة",
+        "subtitle": "تصفح البرامج لاختيار مسار، أو افتح الفوترة لإتمام الاشتراك.",
+        "catalogCta": "كتالوج البرامج",
+        "billingCta": "الفوترة والمدفوعات"
+      },
+      "upcomingLive": "الجلسات المباشرة القادمة",
+      "upcomingEmpty": "لا توجد جلسات مباشرة قادمة.",
+      "pride": "ركن الفخر والمشاركة",
+      "prideEmpty": "لا توجد إنجازات بعد.",
+      "share": "مشاركة",
+      "nextStep": "الخطوة التالية المقترحة",
+      "suggest": "اقتراح",
+      "explorePrograms": "استكشف البرامج"
+    },
+    "store": {
+      "badge": "متجر المسارات (Lifetime)",
+      "title": "اختر رحلة تعليمية منظمة",
+      "subtitle": "شراء مباشر لمسار LIVE أو RECORDED — وصول مدى الحياة",
+      "chooseChild": "اختر الابن",
+      "bundles": "العروض المجمّعة",
+      "bundlePrice": "سعر العرض",
+      "buyBundle": "اشترِ العرض",
+      "tracks": "المسارات",
+      "pace": "الإيقاع الدراسي",
+      "buyLive": "اشترِ LIVE",
+      "buyRecorded": "اشترِ RECORDED",
+      "hintChild": "اختر الابن أولاً",
+      "toast": {
+        "success": "تمت عملية الشراء بنجاح",
+        "fail": "تعذر إتمام الشراء",
+        "addToPlanSuccess": "تمت إضافة المسار لباقة الطالب بنجاح!"
+      },
+      "owned": "مملوك",
+      "goDashboard": "اذهب إلى لوحة التحكم",
+      "bundleOwnedWarn": "تنبيه: الطفل يملك بعض المسارات داخل هذا العرض.",
+      "addToPlan": "إضافة للباقة",
+      "remainingSlots": "المتبقي من المسارات: {{slots}}"
+    },
+    "children": {
+      "title": "أبناؤك",
+      "subtitle": "كل ملف يعكس تقدماً وإنجازات مستقلة.",
+      "empty": "لا توجد ملفات مرتبطة بعد.",
+      "emptyHint": "تواصل مع الدعم إذا أكملت التسجيل مؤخراً.",
+      "emptyCta": "تواصل مع الدعم",
+      "active": "نشط",
+      "inactive": "غير نشط",
+      "age": "{{age}} سنة",
+      "tracks": "مسارات",
+      "quizzes": "اختبارات",
+      "certs": "شهادات",
+      "viewProgress": "فتح التقدم"
+    },
+    "childDetail": {
+      "back": "كل الأبناء",
+      "title": "تقدم المتعلم",
+      "notFound": "لم نعثر على هذا المتعلم ضمن حسابك.",
+      "tabProgress": "التقدم",
+      "tabQuizzes": "الاختبارات",
+      "tabCerts": "الشهادات",
+      "tabReports": "تقارير أسبوعية",
+      "sessions": "حصص",
+      "noEnrollments": "لا توجد اشتراكات في مسارات بعد.",
+      "quizCol": "الاختبار",
+      "scoreCol": "الدرجة",
+      "dateCol": "التاريخ",
+      "noQuizzes": "لا محاولات اختبار بعد.",
+      "download": "تحميل PDF",
+      "noPdf": "لم يُنشأ ملف بعد",
+      "noCerts": "لا شهادات بعد.",
+      "noReports": "لا تقارير أسبوعية بعد.",
+      "emptyProgressTitle": "لا مسارات مسجّلة بعد",
+      "emptyProgressDesc": "عند تسجيل متعلمك في برنامج، سيظهر تقدم الحصص هنا.",
+      "emptyQuizTitle": "لا نشاط اختبارات بعد",
+      "emptyQuizDesc": "تظهر الدرجات والمحاولات بعد إكمال الاختبارات في المقررات.",
+      "emptyCertsTitle": "لا شهادات بعد",
+      "emptyCertsDesc": "تُصدَر الشهادات عند إكمال مسارات أو تقييمات مؤهّلة.",
+      "emptyReportsTitle": "لا تقارير أسبوعية بعد",
+      "emptyReportsDesc": "تُنشَأ الملخصات الأسبوعية مع تفاعل المتعلم مع المحتوى.",
+      "watched": "حصص مشاهدة",
+      "quizzesShort": "اختبارات",
+      "avg": "متوسط الدرجات"
+    },
+    "payments": {
+      "title": "الفوترة والإيصالات",
+      "subtitle": "مدفوعات مرتبطة باشتراكات الأسرة.",
+      "tableTitle": "سجل المدفوعات",
+      "colPackage": "الباقة",
+      "colLearner": "المتعلم",
+      "colAmount": "المبلغ",
+      "colStatus": "الحالة",
+      "colDate": "التاريخ",
+      "empty": "لا توجد مدفوعات.",
+      "emptyHint": "تظهر المدفوعات هنا بعد إتمام الدفع لاشتراك."
+    },
+    "reports": {
+      "title": "التقارير الأسبوعية",
+      "subtitle": "لمحة عن نشاط أبنائك.",
+      "empty": "لا توجد تقارير بعد.",
+      "emptyHint": "أضف ملف متعلم أو انتظر حتى تُنشَأ الملخصات الأسبوعية.",
+      "viewLearner": "فتح ملف المتعلم",
+      "watched": "مشاهدات",
+      "quizzes": "اختبارات",
+      "avg": "متوسط",
+      "noneForChild": "لا تقارير أسبوعية لهذا المتعلم بعد."
+    },
+    "support": {
+      "title": "مركز المساعدة",
+      "subtitle": "راسل فريقنا — نرد داخل نفس التذكرة.",
+      "newTicket": "تذكرة جديدة",
+      "dialogTitle": "صف طلبك",
+      "subject": "الموضوع",
+      "message": "الرسالة",
+      "submit": "إرسال التذكرة",
+      "created": "تم إنشاء التذكرة",
+      "empty": "لا توجد تذاكر بعد.",
+      "replies": "ردود الفريق"
+    },
+    "settings": {
+      "title": "إعدادات الحساب",
+      "subtitle": "حدّث بيانات التواصل — البريد يبقى لنفس تسجيل الدخول.",
+      "profile": "الملف",
+      "email": "البريد",
+      "fullName": "الاسم الكامل",
+      "phone": "الجوال",
+      "save": "حفظ التغييرات",
+      "saved": "تم التحديث"
+    }
+  },
+  "Profile": {
+    "title": "الملف الشخصي",
+    "subtitle": "قم بإدارة معلوماتك الشخصية وتأمين حسابك",
+    "personalTab": "البيانات الشخصية",
+    "securityTab": "الأمان والخصوصية",
+    "personalInfo": "المعلومات الأساسية",
+    "personalDesc": "حدّث اسمك والبريد الإلكتروني الذي تستخدمه للدخول",
+    "fullName": "الاسم الكامل",
+    "username": "اسم المستخدم",
+    "email": "البريد الإلكتروني",
+    "saveChanges": "حفظ",
+    "changePass": "تغيير كلمة المرور",
+    "securityDesc": "اختر كلمة مرور قوية وفريدة لحماية حسابك",
+    "currentPass": "كلمة المرور الحالية",
+    "newPass": "كلمة المرور الجديدة",
+    "confirmPass": "تأكيد كلمة المرور الجديدة",
+    "updatePass": "تحديث كلمة المرور",
+    "updateSuccess": "تم تحديث البيانات بنجاح",
+    "updateError": "حدث خطأ أثناء الحفظ",
+    "passMismatch": "كلمة المرور الجديدة غير متطابقة",
+    "passSuccess": "تم تغيير كلمة المرور بنجاح",
+    "passError": "تعذر تغيير كلمة المرور"
+  },
+  "Certificates": {
+    "title": "الشهادات",
+    "issue": "إصدار شهادة",
+    "searchPlaceholder": "بحث في سجل الشهادات…",
+    "noResults": "لم يتم العثور على شهادات تطابق معايير البحث.",
+    "noMatchingStudents": "لا يوجد طلاب مطابقون",
+    "studentAccount": "حساب الطالب",
+    "searchStudent": "البحث عن طالب بالاسم...",
+    "clickHereToType": "اكتب هنا...",
+    "selectProgram": "اختر البرنامج...",
+    "gradePlaceholder": "0.00",
+    "internalNotes": "ملاحظات داخلية...",
+    "table": {
+      "student": "الطالب",
+      "track": "المسار التعليمي",
+      "date": "تاريخ الإصدار",
+      "code": "كود التحقق",
+      "type": "النوع"
+    },
+    "form": {
+      "child": "اختر الطالب",
+      "track": "المسار المرتبط",
+      "type": "نوع الشهادة",
+      "grade": "الدرجة المستحقة",
+      "notes": "ملاحظات إضافية (اختياري)",
+      "types": {
+        "COMPLETION": "إتمام مسار",
+        "EXCELLENCE": "تميز وتفوق"
+      }
+    },
+    "toast": {
+      "fetchError": "تعذر تحميل سجل الشهادات",
+      "issueSuccess": "تم إصدار الشهادة بنجاح",
+      "deleteSuccess": "تم إلغاء الشهادة بنجاح",
+      "error": "حدث خطأ في معالجة الشهادة"
+    }
+  },
+  "Settings": {
+    "title": "إعدادات النظام",
+    "subtitle": "إدارة الإعدادات العامة والخيارات التشغيلية للمنصة",
+    "sections": {
+      "general": "الإعدادات العامة",
+      "contact": "معلومات التواصل",
+      "security": "الأمان والخصوصية"
+    },
+    "form": {
+      "siteName": "اسم الموقع / الأكاديمية",
+      "siteNamePlaceholder": "مثال: أكاديمية دمشق للأطفال",
+      "descriptionPlaceholder": "التعلم للمستقبل...",
+      "contactEmail": "بريد التواصل الأساسي",
+      "contactEmailPlaceholder": "admin@academy.com",
+      "supportPhone": "هاتف الدعم الفني",
+      "supportPhonePlaceholder": "+963 9xx xxx xxx",
+      "maintenanceMode": "وضع الصيانة",
+      "saveChanges": "حفظ إعدادات النظام",
+      "whatsappNumber": "رقم الواتساب",
+      "whatsappMessage": "رسالة الترحيب",
+      "facebookUrl": "رابط فيسبوك",
+      "instagramUrl": "رابط إنستجرام",
+      "youtubeUrl": "رابط يوتيوب",
+      "twitterUrl": "رابط تويتر/إكس"
+    },
+    "toast": {
+      "fetchError": "تعذر تحميل إعدادات النظام",
+      "saveSuccess": "تم تحديث الإعدادات بنجاح",
+      "error": "حدث خطأ أثناء الحفظ"
+    }
+  }
+}

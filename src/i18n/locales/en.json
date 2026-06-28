@@ -1,0 +1,1553 @@
+{
+  "common": {
+    "save": "Save",
+    "saveChanges": "Save Changes",
+    "saving": "Saving...",
+    "cancel": "Cancel",
+    "create": "Create",
+    "delete": "Delete",
+    "edit": "Edit",
+    "view": "View",
+    "actions": "Actions",
+    "published": "Published",
+    "draft": "Draft",
+    "active": "Active",
+    "inactive": "Inactive",
+    "loading": "Loading...",
+    "noResults": "No results",
+    "searchPlaceholder": "Search...",
+    "from": "From",
+    "to": "To",
+    "close": "Close",
+    "error": "An unexpected error occurred",
+    "confirmDelete": "Are you sure?",
+    "retry": "Retry",
+    "support": "Support",
+    "currency": "SAR",
+    "justNow": "Just now",
+    "total": "Total",
+    "none": "—"
+  },
+  "Dashboard": {
+    "title": "Admin Dashboard",
+    "revenue": "Total Revenue",
+    "activeSubscriptions": "Active Subscriptions",
+    "pendingTickets": "Pending Tickets"
+  },
+  "Categories": {
+    "title": "Packages & Categories"
+  },
+  "Payments": {
+    "title": "Payments & Transactions"
+  },
+  "Reports": {
+    "title": "Reports & Analytics",
+    "subtitle": "Data hub and advanced reporting",
+    "export": "Export CSV",
+    "tabFinancials": "Financial Reports",
+    "tabAcademics": "Academic Performance",
+    "tabOperations": "Interactions & Support",
+    "revenueGrowth": "Revenue Growth",
+    "actualVsExpected": "Actual vs Expected Income"
+  },
+  "Assessments": {
+    "title": "Assessments & Results"
+  },
+  "Coupons": {
+    "title": "Coupons & Discounts"
+  },
+  "CMS": {
+    "title": "Content Management (CMS)"
+  },
+  "Support": {
+    "title": "Support Desk"
+  },
+  "Users": {
+    "title": "User Management",
+    "parents": "Parents",
+    "children": "Children"
+  },
+  "Curriculum": {
+    "title": "Curriculum",
+    "tracks": "Tracks",
+    "learningPaths": "Learning Paths",
+    "sessions": "Sessions"
+  },
+  "Roles": {
+    "title": "Roles & Permissions",
+    "parent": "Parent",
+    "student": "Student",
+    "teacher": "Teacher",
+    "admin": "Administration",
+    "staff": "Staff",
+    "super_admin": "Super Admin"
+  },
+  "Auth": {
+    "loginTitle": "Welcome back",
+    "loginSubtitle": "Access your portal to monitor progress",
+    "email": "Email or Username",
+    "emailPlaceholder": "example@email.com or username",
+    "password": "Password",
+    "passwordPlaceholder": "••••••••",
+    "forgotPassword": "Forgot password?",
+    "loggingIn": "Signing in…",
+    "signIn": "Sign in",
+    "noAccount": "Don't have an account?",
+    "registerNow": "Register",
+    "demoAccounts": "Demo accounts (offline mock)",
+    "demoParent": "Parent",
+    "demoStudent": "Student",
+    "demoAdmin": "Admin",
+    "logout": "Log out",
+    "registerSuccess": "Account created successfully.",
+    "passwordRegisterHint": "At least 8 characters, including one letter and one number.",
+    "errors": {
+      "generic": "Something went wrong. Check your credentials or try again.",
+      "someError": "Error in email or password"
+    }
+  },
+  "DashboardLayout": {
+    "searchPlaceholder": "Search the dashboard…"
+  },
+  "Months": {
+    "short": {
+      "1": "Jan",
+      "2": "Feb",
+      "3": "Mar",
+      "4": "Apr",
+      "5": "May",
+      "6": "Jun",
+      "7": "Jul",
+      "8": "Aug",
+      "9": "Sep",
+      "10": "Oct",
+      "11": "Nov",
+      "12": "Dec"
+    }
+  },
+  "Nav": {
+    "home": "Home",
+    "programs": "Programs",
+    "pricing": "Pricing",
+    "competitions": "Competitions",
+    "blog": "Blog",
+    "about": "About",
+    "contact": "Contact"
+  },
+  "Header": {
+    "dashboard": "Dashboard",
+    "logout": "Log out",
+    "login": "Sign in",
+    "freeTrial": "Free trial"
+  },
+  "Profile": {
+    "title": "Profile",
+    "subtitle": "Manage your personal information and secure your account",
+    "personalTab": "Personal information",
+    "securityTab": "Security & privacy",
+    "personalInfo": "Essential information",
+    "personalDesc": "Update your name and the email you use to sign in",
+    "fullName": "Full name",
+    "username": "Username",
+    "email": "Email address",
+    "saveChanges": "Save",
+    "changePass": "Change password",
+    "securityDesc": "Use a strong, unique password to protect your account",
+    "currentPass": "Current password",
+    "newPass": "New password",
+    "confirmPass": "Confirm new password",
+    "updatePass": "Update password",
+    "updateSuccess": "Your profile was updated successfully",
+    "updateError": "Could not save changes",
+    "passMismatch": "New passwords do not match",
+    "passSuccess": "Password changed successfully",
+    "passError": "Could not change password"
+  },
+  "Certificates": {
+    "title": "Certificate Management",
+    "issue": "Issue Certificate",
+    "searchPlaceholder": "Search certificates...",
+    "noResults": "No certificates found matching your criteria.",
+    "noMatchingStudents": "No matching students",
+    "studentAccount": "Student Account",
+    "searchStudent": "Search student by name...",
+    "clickHereToType": "Click here to type...",
+    "selectProgram": "Select Program...",
+    "gradePlaceholder": "0.00",
+    "internalNotes": "Internal notes...",
+    "table": {
+      "student": "Student",
+      "track": "Track",
+      "date": "Issue Date",
+      "code": "Verification Code",
+      "type": "Type"
+    },
+    "form": {
+      "child": "Select Student",
+      "track": "Linked Track",
+      "type": "Certificate Type",
+      "grade": "Grade/Score",
+      "notes": "Internal Notes (Optional)",
+      "types": {
+        "COMPLETION": "Completion",
+        "EXCELLENCE": "Excellence"
+      }
+    },
+    "toast": {
+      "fetchError": "Could not load certificate records",
+      "issueSuccess": "Certificate issued successfully",
+      "deleteSuccess": "Certificate revoked successfully",
+      "error": "Failed to process certificate"
+    }
+  },
+  "Settings": {
+    "title": "System Settings",
+    "subtitle": "Manage general settings and platform operational options",
+    "sections": {
+      "general": "General Settings",
+      "contact": "Contact Information",
+      "security": "Security & Privacy"
+    },
+    "form": {
+      "siteName": "Site / Academy Name",
+      "siteNamePlaceholder": "e.g. Damascus Kids Academy",
+      "descriptionPlaceholder": "Learning for the future...",
+      "contactEmail": "Primary Contact Email",
+      "contactEmailPlaceholder": "admin@academy.com",
+      "supportPhone": "Support Phone",
+      "supportPhonePlaceholder": "+963 9xx xxx xxx",
+      "maintenanceMode": "Maintenance Mode",
+      "saveChanges": "Save System Settings",
+      "whatsappNumber": "WhatsApp Number",
+      "whatsappMessage": "WhatsApp Welcome Message",
+      "facebookUrl": "Facebook URL",
+      "instagramUrl": "Instagram URL",
+      "youtubeUrl": "YouTube URL",
+      "twitterUrl": "Twitter/X URL"
+    },
+    "toast": {
+      "fetchError": "Could not load system settings",
+      "saveSuccess": "Settings updated successfully",
+      "error": "An error occurred while saving"
+    }
+  },
+  "Student": {
+    "nav": {
+      "planner": "Study planner"
+    },
+    "planner": {
+      "title": "Study planner",
+      "subtitle": "Drag lessons and quizzes into your week. Live sessions are fixed.",
+      "allTracks": "All tracks",
+      "clearFilter": "Clear filter",
+      "dragHint": "🎯 Drag a mission and drop it onto the calendar to schedule it",
+      "weekTarget": "This week target",
+      "todo": "Suggested slots",
+      "loading": "Loading…",
+      "empty": "Nothing to schedule right now.",
+      "saved": "Saved",
+      "saveError": "Could not save slot",
+      "week": "Week",
+      "day": "Day",
+      "agenda": "Agenda",
+      "today": "Today",
+      "prev": "Back",
+      "next": "Next"
+    }
+  },
+  "Teacher": {
+    "nav": {
+      "dashboard": "Home",
+      "tracks": "My tracks",
+      "myStudents": "My Students",
+      "settings": "Settings",
+      "availability": "Availability"
+    },
+    "shell": {
+      "searchPlaceholder": "Search your tracks…"
+    },
+    "lifecycle": {
+      "LIVE_ENROLLMENT": "Live enrollment",
+      "SELF_PACED": "Self-paced",
+      "CLOSED": "Closed"
+    },
+    "price": {
+      "live": "Live",
+      "selfPaced": "Self-paced",
+      "base": "List"
+    },
+    "track": {
+      "inactive": "Inactive",
+      "meta": "{{sessions}} lessons · {{paths}} units",
+      "openRoadmap": "Open roadmap"
+    },
+    "lesson": {
+      "recorded": "Recorded",
+      "live": "Live",
+      "hidden": "Hidden",
+      "openMeeting": "Open meeting link",
+      "recording": "Recording",
+      "video": "Video",
+      "edit": "Edit"
+    },
+    "live": {
+      "utcHint": "UTC",
+      "scheduled": "Scheduled",
+      "upcoming": "Upcoming",
+      "startingSoon": "Starting soon",
+      "happeningNow": "Happening now",
+      "waitingRecording": "Waiting for recording",
+      "archived": "Recorded",
+      "startsInLabel": "Starts in",
+      "endsInLabel": "Session ends in",
+      "joinLive": "Join live room",
+      "openLobby": "Open meeting link",
+      "past": "Past"
+    },
+    "roadmap": {
+      "back": "All tracks",
+      "notFound": "This track is not available or you are not assigned to it.",
+      "timezone": "Default display timezone",
+      "title": "Linear roadmap",
+      "trackLevel": "Track-level lessons",
+      "unit": "Unit",
+      "addLesson": "Add lesson",
+      "emptySection": "No lessons in this segment yet."
+    },
+    "lessonDialog": {
+      "createTitle": "New lesson",
+      "editTitle": "Edit lesson",
+      "subtitle": "Linear roadmap step: choose recorded vs live (UTC schedule + meeting link for live).",
+      "title": "Title",
+      "learningPath": "Learning unit",
+      "pathPlaceholder": "Select unit",
+      "pathNone": "Track-level (no unit)",
+      "description": "Description",
+      "contentType": "Content type",
+      "order": "Order (sequence)",
+      "lessonType": "Lesson type",
+      "typeRecorded": "Recorded — on-demand",
+      "typeLive": "Live — scheduled (UTC)",
+      "liveHint": "Pick the local date/time for the session; it is sent to the API as an ISO instant (UTC).",
+      "scheduledAt": "Scheduled start",
+      "meetingUrl": "Live meeting URL",
+      "recordingUrl": "Recording URL (after live)",
+      "videoUrl": "Video URL",
+      "textContent": "Text / instructions",
+      "duration": "Duration (minutes)",
+      "visible": "Visible to students",
+      "visibleHint": "Turn off to hide while drafting.",
+      "cancel": "Cancel",
+      "save": "Save",
+      "saving": "Saving…"
+    },
+    "dashboard": {
+      "title": "Teacher home",
+      "subtitle": "Manage your assigned tracks and the linear hybrid curriculum (recorded + live lessons).",
+      "assignedTracks": "Assigned tracks",
+      "totalLessons": "Lessons across tracks",
+      "lifecycleMix": "Lifecycle mix",
+      "goTracks": "Open my tracks",
+      "performanceTitle": "Performance overview",
+      "last30Days": "Last 30 days engagement",
+      "realTime": "Real-time analytics",
+      "loadError": "Could not load tracks. Check your connection and try again."
+    },
+    "tracks": {
+      "title": "My tracks",
+      "subtitle": "Tracks you are assigned to teach. Open a roadmap to edit the linear curriculum.",
+      "refresh": "Refresh",
+      "refreshing": "Refreshing…",
+      "loadError": "Could not load tracks.",
+      "empty": "You have no assigned tracks yet. Contact an administrator."
+    },
+    "tabs": {
+      "roadmap": "Curriculum",
+      "students": "Students"
+    },
+      "availability": {
+      "title": "Availability",
+      "subtitle": "Set your weekly teaching availability and office hours",
+      "dayOfWeek": {
+        "0": "Sunday",
+        "1": "Monday",
+        "2": "Tuesday",
+        "3": "Wednesday",
+        "4": "Thursday",
+        "5": "Friday",
+        "6": "Saturday"
+      },
+      "day": "Day",
+      "startTime": "Start time",
+      "endTime": "End time",
+      "addSlot": "Add slot",
+      "save": "Save availability",
+      "saving": "Saving…",
+      "fetchError": "Could not load availability",
+      "saveSuccess": "Availability updated",
+      "error": "Failed to update availability"
+    },
+    "quiz": {
+      "addAssessment": "Add assessment",
+      "assessmentBadge": "Assessment",
+      "typeLesson": "Quiz",
+      "typeFinal": "Final exam",
+      "typeCompetition": "Competition",
+      "passingLine": "Pass {{n}}%",
+      "questionCount": "{{count}} questions",
+      "maxAttemptsLine": "Max {{n}} attempts",
+      "edit": "Edit",
+      "createTitle": "New assessment",
+      "editTitle": "Edit assessment",
+      "subtitle": "Link quizzes and exams to your curriculum. Students see them in roadmap order.",
+      "title": "Title",
+      "titlePh": "e.g. Module 1 check-in",
+      "kind": "Assessment type",
+      "placement": "Roadmap segment",
+      "passingScore": "Passing score %",
+      "maxAttempts": "Max attempts",
+      "timeLimit": "Time limit (minutes, optional)",
+      "questions": "Questions",
+      "addQuestion": "Add question",
+      "questionN": "Question {{n}}",
+      "removeQuestion": "Remove question",
+      "mcq": "Multiple choice",
+      "tf": "True / False",
+      "questionPlaceholder": "Write the question…",
+      "optionPlaceholder": "Option text",
+      "addOption": "Add option",
+      "save": "Save changes",
+      "create": "Create assessment",
+      "confirmDelete": "Delete this assessment? This cannot be undone.",
+      "errTimeLimit": "Enter a valid time limit in minutes or leave empty.",
+      "errTitle": "Title is too short.",
+      "errNoQuestions": "Add at least one question.",
+      "errQuestionText": "Every question needs text.",
+      "errTf": "True/False must have two options.",
+      "errMcqOptions": "Multiple choice needs at least two filled options.",
+      "errOneCorrect": "Mark exactly one correct answer per question."
+    },
+    "students": {
+      "global": {
+        "title": "My Students",
+        "subtitle": "Overview of student performance across all your tracks",
+        "searchPlaceholder": "Search for a student (name or username)...",
+        "empty": "No students enrolled in your tracks yet",
+        "table": {
+          "student": "Student",
+          "tracksCount": "Shared Tracks",
+          "overallProgress": "Overall Progress",
+          "avgQuizScore": "Avg Quiz Score"
+        }
+      },
+      "track": {
+        "title": "Student insights",
+        "subtitle": "Enrollment and progress on this track. Search scales to large cohorts.",
+        "searchPlaceholder": "Search by name or username…",
+        "metaCount": "{{count}} enrolled · {{lessons}} lessons in roadmap",
+        "loadError": "Could not load students.",
+        "empty": "No students match your search.",
+        "colStudent": "Student",
+        "colProgress": "Roadmap",
+        "colLastActivity": "Last activity",
+        "colQuizzes": "Quizzes",
+        "colQuizzesPassed": "Quizzes",
+        "quizzesPassed": "{{passed}}/{{total}} passed",
+        "noQuizzesOnTrack": "No quizzes on track",
+        "colActions": "",
+        "avgScore": "Avg {{n}}%",
+        "noQuizzes": "No attempts yet",
+        "latestShort": "Latest: {{score}}% · {{status}}",
+        "pass": "Pass",
+        "fail": "Fail",
+        "viewDetail": "View",
+        "lastShort": "Last",
+        "detailError": "Could not load student detail.",
+        "enrolled": "Enrolled",
+        "access": "Access",
+        "summaryProgress": "Roadmap",
+        "lessons": "lessons",
+        "pending": "Pending",
+        "lessonBreakdown": "Lesson checklist",
+        "colLesson": "Lesson",
+        "colStatus": "Status",
+        "colLast": "Last opened",
+        "done": "Done",
+        "pendingBadge": "Pending",
+        "recentQuizzes": "Recent quiz attempts",
+        "colQuiz": "Quiz",
+        "colScore": "Score",
+        "colResult": "Result",
+        "colWhen": "When"
+      },
+      "details": {
+        "title": "Student Details",
+        "overview": "Overview",
+        "overallProgress": "Overall Progress",
+        "averageScore": "Average Score",
+        "quizzesPassed": "Quizzes Passed",
+        "progressByTrack": "Progress by Track",
+        "quizHistory": "Quiz History",
+        "table": {
+          "quiz": "Quiz",
+          "track": "Track",
+          "score": "Score",
+          "status": "Status",
+          "date": "Date"
+        },
+        "pass": "Pass",
+        "fail": "Fail"
+      }
+    }
+  },
+  "Parent": {
+    "nav": {
+      "dashboard": "Home",
+      "store": "Store",
+      "children": "My children",
+      "reports": "Weekly reports",
+      "payments": "Billing",
+      "support": "Support",
+      "settings": "Settings"
+    },
+    "shell": {
+      "searchPlaceholder": "Search in your family hub…"
+    },
+    "childStrip": {
+      "label": "Focus on",
+      "placeholder": "Choose a learner",
+      "noChildren": "No learner profiles are linked to your account yet. Our team can help you enroll."
+    },
+    "addLearner": {
+      "title": "Add New Learner",
+      "description": "Create a learner profile and sign-in for your child. They will log in with the username and password you choose.",
+      "openButton": "Add learner",
+      "fullName": "Full name",
+      "age": "Age (optional)",
+      "ageError": "If provided, age must be between 3 and 25.",
+      "gradeLevel": "Grade / level (optional)",
+      "gradePlaceholder": "e.g. Grade 3",
+      "username": "Username (for login)",
+      "password": "Password",
+      "confirmPassword": "Confirm password",
+      "passwordMismatch": "Passwords do not match",
+      "submit": "Create profile",
+      "success": "Learner profile created."
+    },
+    "dashboard": {
+      "badge": "Your family hub",
+      "title": "Welcome back",
+      "subtitle": "A calm overview of subscriptions, progress, and payments.",
+      "viewChildren": "View all children",
+      "loadError": "We could not load your dashboard. Please refresh.",
+      "stats": {
+        "children": "Learners",
+        "subscriptions": "Active plans",
+        "pendingPayments": "Pending payments",
+        "notifications": "Unread updates"
+      },
+      "learners": "Learners",
+      "all": "See all",
+      "noChildren": "No learner profiles yet.",
+      "ageYears": "{{age}} years old",
+      "activePlan": "Active plan",
+      "noActiveSub": "No active subscription",
+      "tracks": "tracks",
+      "recentPayments": "Recent payments",
+      "noPayments": "No payments recorded yet.",
+      "subscriptionAlerts": {
+        "title": "Subscription reminders",
+        "expired": "{{name}} — {{plan}} ended on {{date}}.",
+        "expiringSoon": "{{name}} — {{plan}} ends in {{days}} days (on {{date}}).",
+        "viewLearner": "View learner"
+      },
+      "emptyFamily": {
+        "title": "Welcome — link a learner to unlock insights",
+        "body": "When your first child profile is connected, you will see progress, quiz results, certificates, and billing in one place.",
+        "cta": "Go to My children"
+      },
+      "subscribeBanner": {
+        "title": "Subscribe your children to our learning tracks to begin the journey",
+        "subtitle": "Browse programs to choose a track, or open billing to activate a plan.",
+        "catalogCta": "Browse programs",
+        "billingCta": "Billing & payments"
+      },
+      "upcomingLive": "Upcoming live sessions",
+      "upcomingEmpty": "No upcoming live sessions.",
+      "pride": "Pride & sharing",
+      "prideEmpty": "No achievements yet.",
+      "share": "Share",
+      "nextStep": "Next step recommendations",
+      "suggest": "Suggested",
+      "explorePrograms": "Explore programs"
+    },
+    "store": {
+      "badge": "Track store (Lifetime)",
+      "title": "Choose a structured journey",
+      "subtitle": "Direct purchase: LIVE or RECORDED — lifetime access",
+      "chooseChild": "Choose child",
+      "bundles": "Bundles",
+      "bundlePrice": "Bundle price",
+      "buyBundle": "Buy bundle",
+      "tracks": "Tracks",
+      "pace": "Academic pace",
+      "buyLive": "Buy Live",
+      "buyRecorded": "Buy Recorded",
+      "hintChild": "Pick a child first",
+      "toast": {
+        "success": "Purchase completed successfully",
+        "fail": "Unable to complete purchase",
+        "addToPlanSuccess": "Track successfully added to your plan!"
+      },
+      "owned": "Owned",
+      "goDashboard": "Go to Dashboard",
+      "bundleOwnedWarn": "Warning: The child already owns some tracks in this bundle.",
+      "addToPlan": "Add to Plan",
+      "remainingSlots": "Remaining Slots: {{slots}}"
+    },
+    "children": {
+      "title": "Your children",
+      "subtitle": "Each profile reflects their own progress and achievements.",
+      "empty": "No learner profiles are linked yet.",
+      "emptyHint": "Contact support if you recently completed enrollment.",
+      "emptyCta": "Contact support",
+      "active": "Active",
+      "inactive": "Inactive",
+      "age": "{{age}} yrs",
+      "tracks": "Tracks",
+      "quizzes": "Quizzes",
+      "certs": "Certificates",
+      "viewProgress": "Open progress"
+    },
+    "childDetail": {
+      "back": "All children",
+      "title": "Learner progress",
+      "notFound": "We could not find this learner on your account.",
+      "tabProgress": "Progress",
+      "tabQuizzes": "Quizzes",
+      "tabCerts": "Certificates",
+      "tabReports": "Weekly reports",
+      "sessions": "sessions",
+      "noEnrollments": "No enrollments yet.",
+      "quizCol": "Quiz",
+      "scoreCol": "Score",
+      "dateCol": "Date",
+      "noQuizzes": "No quiz attempts yet.",
+      "download": "Download PDF",
+      "noPdf": "PDF not generated yet",
+      "noCerts": "No certificates yet.",
+      "noReports": "No weekly reports yet.",
+      "emptyProgressTitle": "No enrolled tracks yet",
+      "emptyProgressDesc": "Once your learner is enrolled in a program, session progress will appear here.",
+      "emptyQuizTitle": "No quiz activity yet",
+      "emptyQuizDesc": "Scores and attempts show up after your learner completes quizzes in their courses.",
+      "emptyCertsTitle": "No certificates yet",
+      "emptyCertsDesc": "Certificates appear when your learner completes eligible tracks or assessments.",
+      "emptyReportsTitle": "No weekly reports yet",
+      "emptyReportsDesc": "Weekly summaries are generated as your learner engages with content.",
+      "watched": "Sessions watched",
+      "quizzesShort": "Quizzes",
+      "avg": "Avg score"
+    },
+    "payments": {
+      "title": "Billing & receipts",
+      "subtitle": "Payments tied to your family subscriptions.",
+      "tableTitle": "Payment history",
+      "colPackage": "Plan",
+      "colLearner": "Learner",
+      "colAmount": "Amount",
+      "colStatus": "Status",
+      "colDate": "Date",
+      "empty": "No payments to show.",
+      "emptyHint": "Payments appear here after you complete checkout for a subscription."
+    },
+    "reports": {
+      "title": "Weekly reports",
+      "subtitle": "Snapshot of activity across your children.",
+      "empty": "No reports available yet.",
+      "emptyHint": "Add a learner profile or wait until weekly summaries are generated.",
+      "viewLearner": "Open learner",
+      "watched": "Watched",
+      "quizzes": "Quizzes",
+      "avg": "Avg",
+      "noneForChild": "No weekly reports for this learner yet."
+    },
+    "support": {
+      "title": "Help center",
+      "subtitle": "Message our team — we reply inside your ticket thread.",
+      "newTicket": "New ticket",
+      "dialogTitle": "Describe your request",
+      "subject": "Subject",
+      "message": "Message",
+      "submit": "Send ticket",
+      "created": "Ticket submitted",
+      "empty": "You have no tickets yet.",
+      "replies": "Team replies"
+    },
+    "settings": {
+      "title": "Account settings",
+      "subtitle": "Update how we address you — your email stays the same for sign-in.",
+      "profile": "Profile",
+      "email": "Email",
+      "fullName": "Full name",
+      "phone": "Phone",
+      "save": "Save changes",
+      "saved": "Profile updated"
+    }
+  },
+  "Admin": {
+    "nav": {
+      "dashboard": "Dashboard",
+      "users": "Users",
+      "children": "Children & Students",
+      "programs": "Programs",
+      "sessions": "Lessons & Tracks",
+      "categories": "Categories",
+      "payments": "Payments",
+      "subscriptions": "Subscriptions",
+      "reports": "Reports",
+      "assessments": "Assessments",
+      "coupons": "Coupons",
+      "content": "Content Management",
+      "support": "Support",
+      "quizzes": "Quizzes",
+      "certificates": "Certificates",
+      "roles": "Roles & Permissions",
+      "profile": "Profile",
+      "settings": "Settings",
+      "bundles": "Bundles"
+    },
+    "tables": {
+      "name": "Name",
+      "email": "Email",
+      "role": "Role",
+      "status": "Status",
+      "actions": "Actions",
+      "date": "Date",
+      "title": "Title",
+      "price": "Price",
+      "age": "Age",
+      "active": "Active",
+      "inactive": "Inactive"
+    },
+    "shell": {
+      "searchPlaceholder": "Search analytics & users…",
+      "notifications": "Notifications",
+      "noNotifications": "No notifications yet",
+      "collapseSidebar": "Collapse sidebar",
+      "expandSidebar": "Expand sidebar",
+      "brandSubtitle": "Admin console",
+      "toggleLanguage": "Switch language",
+      "accountMenu": "Account",
+      "profileSettings": "Profile"
+    },
+    "Profile": {
+      "title": "Account Settings",
+      "subtitle": "Manage your personal information and secure your account",
+      "personalTab": "Personal Information",
+      "securityTab": "Security & Privacy",
+      "personalInfo": "Essential Information",
+      "personalDesc": "Update your name and the primary email you use for access",
+      "fullName": "Full Name",
+      "username": "Username",
+      "email": "Email Address",
+      "saveChanges": "Save Changes",
+      "changePass": "Change Password",
+      "securityDesc": "Ensure you choose a strong and unique password to protect your identity",
+      "currentPass": "Current Password",
+      "newPass": "New Password",
+      "confirmPass": "Confirm New Password",
+      "updatePass": "Update Password"
+    },
+    "analytics": {
+      "refresh": "Refresh",
+      "loadError": "Could not load dashboard data. Please try again.",
+      "noPermission": "You do not have permission to view platform-wide analytics",
+      "noPermissionHint": "Contact your administrator to grant access to performance metrics.",
+      "dashboardSearchPlaceholder": "Search the dashboard…",
+      "growthChartPeriod": "Growth performance ({{currency}})",
+      "monthly": "Monthly",
+      "quarterly": "Quarterly",
+      "quickInsightsTitle": "Quick insights",
+      "openTicketsTitle": "Open tickets",
+      "openTicketsHint": "Requires follow-up from support",
+      "registeredUsersTitle": "Registered users",
+      "registeredUsersHint": "Total active accounts",
+      "quickActionsTitle": "Quick actions",
+      "actionAddUser": "Add user",
+      "actionReports": "Reports",
+      "actionPrograms": "Programs",
+      "noQuickActions": "No actions available right now",
+      "currencyInActivity": "SAR",
+      "trendNeutral": "—",
+      "trendUp": "{{value}}% ↑",
+      "trendDown": "{{value}}% ↓",
+      "pageTitle": "Dashboard",
+      "pageSubtitle": "Real-time system overview & analytics",
+      "stats": {
+        "revenue": "Total Revenue",
+        "revenueValue": "{{amount}} {{currency}}",
+        "activeStudents": "Active Students",
+        "pendingTickets": "Pending Tickets",
+        "activePackages": "Active Packages",
+        "activeSubscriptions": "Active Subscriptions",
+        "parents": "Registered Parents",
+        "children": "Registered Children",
+        "total": "Total Population"
+      },
+      "revenueChart": {
+        "title": "Revenue Performance",
+        "subtitle": "Monthly revenue growth tracking based on confirmed payments. Amounts are in {{currency}}.",
+        "barTooltip": "{{amount}} {{currency}}",
+        "loadError": "Could not load the revenue performance chart.",
+        "noData": "No financial records found for the selected period."
+      },
+      "activity": {
+        "title": "Operation Pulse",
+        "subtitle": "Latest system activities",
+        "payment": "Payment Received",
+        "ticket": "New Support Ticket",
+        "viewAll": "View All Activity"
+      }
+    },
+    "usersPage": {
+      "search": "Search by name or email…",
+      "allRoles": "All roles",
+      "adminsOnly": "Admins only",
+      "staffOnly": "Staff only",
+      "parentsOnly": "Parents only",
+      "teachersOnly": "Teachers only",
+      "childrenOnly": "Children only",
+      "allStatuses": "All statuses",
+      "createUser": "Create user",
+      "refresh": "Refresh",
+      "userIdentity": "User identity",
+      "role": "Role",
+      "status": "Status",
+      "joinedOn": "Joined on",
+      "settings": "Actions",
+      "totalPersonnel": "Total personnel: {{count}}",
+      "emptyTitle": "No identities found",
+      "emptyMessage": "Try adjusting your filters or search term.",
+      "manageProfile": "Manage profile",
+      "forcePassword": "Force password",
+      "manageTracks": "Manage tracks",
+      "viewPerformance": "View performance",
+      "roles": {
+        "ADMIN": "Admin",
+        "STAFF": "Staff",
+        "PARENT": "Parent",
+        "CHILD": "Child",
+        "TEACHER": "Teacher"
+      },
+      "statuses": {
+        "PENDING": "Pending",
+        "APPROVED": "Approved",
+        "REJECTED": "Rejected",
+        "SUSPENDED": "Suspended"
+      },
+      "create": {
+        "title": "Create new user",
+        "subtitle": "Provision account identity",
+        "fullName": "Full name",
+        "email": "Email address",
+        "password": "Initial password",
+        "passwordHint": "Minimum 8 characters.",
+        "platformRole": "Platform role",
+        "assignCustomRole": "Assign custom role",
+        "loadingRoles": "Loading available roles…",
+        "selectRole": "Select a role",
+        "staffRoleHint": "Determines granular CRUD permissions in the admin panel.",
+        "adminWarning": "Super Admin bypasses all permission checks. Use sparingly.",
+        "submit": "Provision user account",
+        "required": "Please fill in all required fields",
+        "staffRoleRequired": "Select a custom role for this staff member"
+      },
+      "edit": {
+        "title": "Edit identity",
+        "subtitle": "Access level & role",
+        "name": "Display name",
+        "email": "Primary email",
+        "ecosystemRole": "Platform role",
+        "statusState": "Enrollment status",
+        "customRole": "Custom role assignment",
+        "loadingRoles": "Loading roles…",
+        "submit": "Sync account properties"
+      },
+      "password": {
+        "title": "Security reset",
+        "subtitle": "High risk operation",
+        "warning": "You are performing an administrative password override for {{name}}.",
+        "newPassword": "New credentials",
+        "submit": "Execute force reset"
+      },
+      "toast": {
+        "fetchError": "Could not load users",
+        "createSuccess": "User \"{{name}}\" created",
+        "updateSuccess": "Identity updated",
+        "passwordSuccess": "Credentials updated",
+        "createError": "Could not create user",
+        "updateError": "Could not save changes",
+        "passwordError": "Could not reset password",
+        "rolesError": "Could not load custom roles"
+      },
+      "performance": {
+        "teacherTitle": "Senior Instructor Performance",
+        "export": "Export Report",
+        "totalStudents": "Registered Students",
+        "avgScore": "Avg Quiz Score",
+        "completion": "Syllabus Mastery",
+        "activeTracks": "Assigned Tracks",
+        "trackFocus": "Instructional Context",
+        "trackFocusDesc": "Overview of tracks managed by this instructor.",
+        "engagement": "Global Engagement",
+        "highImpact": "Significant academic impact detected",
+        "noImpact": "Pending track engagement",
+        "health": "Course Health",
+        "onTrack": "Curriculum progression is optimal",
+        "attentionNeeded": "Monitor session participation",
+        "range": {
+          "7d": "7 Days",
+          "30d": "30 Days",
+          "all": "All Time",
+          "custom": "Custom"
+        }
+      },
+      "teacherTracks": {
+        "title": "Track Assignments",
+        "desc": "Assign courses to {{name}}"
+      }
+    },
+    "programsPage": {
+      "title": "Educational Programs Management",
+      "searchPlaceholder": "Search by name or level…",
+      "create": "Add Program",
+      "createProgram": "Create Program",
+      "editProgram": "Edit Program",
+      "newProgram": "New Program",
+      "table": {
+        "title": "Program",
+        "price": "Price",
+        "age": "Age",
+        "status": "Status",
+        "actions": "Actions"
+      },
+      "programDetails": "Program Details",
+      "targetAge": "Target Age",
+      "duration": "Duration",
+      "years": "Years",
+      "months": "Mo",
+      "sessionsPerWeek": "Sessions/Wk",
+      "emptyTitle": "No programs found",
+      "confirmDelete": "Are you sure you want to delete this program?",
+      "titleLabel": "Title",
+      "description": "Description",
+      "minAge": "Min Age",
+      "maxAge": "Max Age",
+      "durationMonths": "Duration (Months)",
+      "sessionsPerWeekLabel": "Sessions/Week",
+      "priceLabel": "Price",
+      "thumbnail": "Image URL",
+      "skills": "Skills",
+      "cancel": "Cancel",
+      "saveChanges": "Save Changes",
+      "toast": {
+        "fetchError": "Could not load programs",
+        "createSuccess": "Program created successfully",
+        "updateSuccess": "Program updated successfully",
+        "deleteSuccess": "Program deleted successfully",
+        "deleteError": "Could not delete program",
+        "validationError": "Validation error. Please check your inputs.",
+        "error": "An error occurred"
+      },
+      "weeklySchedules": "Weekly Live Schedules",
+      "addSchedule": "Add Slot",
+      "noSchedules": "No fixed schedules set for this live course.",
+      "days": {
+        "0": "Sunday",
+        "1": "Monday",
+        "2": "Tuesday",
+        "3": "Wednesday",
+        "4": "Thursday",
+        "5": "Friday",
+        "6": "Saturday"
+      }
+    },
+    "categoriesPage": {
+      "title": "Packages & Categories",
+      "searchPlaceholder": "Search for a package…",
+      "create": "New Package",
+      "level": {
+        "BASIC": "Basic",
+        "ADVANCED": "Advanced",
+        "PREMIUM": "Premium"
+      },
+      "table": {
+        "name": "Package Name",
+        "features": "Features",
+        "price": "Price",
+        "status": "Active Status",
+        "actions": "Control"
+      },
+      "form": {
+        "name": "Package Name",
+        "description": "Manage subscription packages and the features attached to each package to ensure the best learning experience.",
+        "level": "Package Level",
+        "price": "Price (SAR)",
+        "tracks": "Available Tracks",
+        "features": "Package Features",
+        "hasCertificate": "Completion Certificate",
+        "hasCoach": "Personal Coach",
+        "hasPrivate": "Private Sessions"
+      },
+      "toast": {
+        "fetchError": "Could not load packages",
+        "createSuccess": "Package created successfully",
+        "updateSuccess": "Package updated successfully",
+        "statusUpdateSuccess": "Package status changed",
+        "error": "Operation failed"
+      }
+    },
+    "couponsPage": {
+      "title": "Coupons & Marketing",
+      "searchPlaceholder": "Search for code or token…",
+      "create": "New Coupon",
+      "table": {
+        "code": "Code",
+        "discount": "Discount",
+        "usage": "Usage",
+        "status": "Status",
+        "expiry": "Expiry Date",
+        "actions": "Actions"
+      },
+      "form": {
+        "code": "Coupon Code",
+        "codePlaceholder": "e.g. WELCOME10",
+        "discountType": "Discount Type",
+        "discountValue": "Discount Value",
+        "usageLimit": "Usage Limit",
+        "usageLimitPlaceholder": "Unlimited",
+        "expiryDate": "Expiry Date",
+        "isActive": "Activate Coupon",
+        "percentage": "Percentage (%)",
+        "fixed": "Fixed Amount (SAR)"
+      },
+      "toast": {
+        "fetchError": "Could not load coupons",
+        "createSuccess": "Coupon created successfully",
+        "updateSuccess": "Coupon updated successfully",
+        "error": "An error occurred"
+      }
+    },
+    "childrenPage": {
+      "title": "Children / Students Mapping",
+      "searchPlaceholder": "Search for student or parent…",
+      "create": "Link New Child",
+      "noParents": "No parents found",
+      "table": {
+        "name": "Child Name",
+        "username": "Username",
+        "parent": "Parent Identity",
+        "joinDate": "Join Date",
+        "status": "Status",
+        "actions": "Actions"
+      },
+      "form": {
+        "fullName": "Student Full Name",
+        "username": "Login Username",
+        "password": "Initial Password",
+        "parent": "Select Parent",
+        "parentPlaceholder": "Search parent by email or name...",
+        "parentSearchPlaceholder": "Search...",
+        "age": "Age",
+        "isActive": "Is Active"
+      },
+      "toast": {
+        "fetchError": "Could not load students",
+        "createSuccess": "Child account created and linked",
+        "updateSuccess": "Student profile updated",
+        "error": "Failed to sync student data"
+      }
+    },
+    "sessionsPage": {
+      "title": "Learning Paths & Sessions",
+      "searchPlaceholder": "Search sessions...",
+      "create": "Add New Session",
+      "phase": {
+        "contentProvisioning": "Phase 2: Content Provisioning"
+      },
+      "contentType": {
+        "VIDEO": "Video",
+        "PDF": "PDF (Resource)",
+        "TEXT": "Text / Article",
+        "MIXED": "Mixed"
+      },
+      "learningPath": {
+        "title": "Chapters / Learning Paths",
+        "create": "New Chapter",
+        "name": "Chapter Title",
+        "order": "Sequence Order"
+      },
+      "table": {
+        "title": "Module Title",
+        "track": "Program / Track",
+        "path": "Chapter",
+        "type": "Content Type",
+        "order": "Order",
+        "status": "Status"
+      },
+      "form": {
+        "track": "Select Program",
+        "trackPlaceholder": "Search for a program...",
+        "trackSearchPlaceholder": "Search programs...",
+        "path": "Learning Path (Optional)",
+        "pathPlaceholder": "Select a chapter...",
+        "title": "Session Title",
+        "contentType": "Content Type",
+        "videoUrl": "Video URL (Streaming)",
+        "videoUrlPlaceholder": "https://vimeo.com/...",
+        "pdfUrl": "PDF Resource URL",
+        "pdfUrlPlaceholder": "https://s3.aws.com/...",
+        "textContent": "Rich Text Content",
+        "textContentPlaceholder": "Brief overview of this chapter...",
+        "duration": "Duration (minutes)",
+        "order": "Display Order",
+        "isActive": "Is Active"
+      },
+      "toast": {
+        "fetchError": "Could not load sessions",
+        "createSuccess": "Session published successfully",
+        "pathCreateSuccess": "New chapter added",
+        "updateSuccess": "Module updated",
+        "error": "Failed to sync content"
+      }
+    },
+    "subscriptionsPage": {
+      "title": "Subscriptions & Enrollments",
+      "tabs": {
+        "subscriptions": "Package Subscriptions",
+        "enrollments": "Track Enrollments"
+      },
+      "create": "Link Student",
+      "form": {
+        "student": "Select Student",
+        "studentPlaceholder": "Search for a student...",
+        "type": "Enrollment Type",
+        "typePackage": "Package Subscription",
+        "typeTrack": "Direct Track Enrollment",
+        "package": "Select Package",
+        "packagePlaceholder": "Search packages...",
+        "track": "Select Track",
+        "trackPlaceholder": "Search tracks...",
+        "startDate": "Start Date",
+        "endDate": "Expiration Date",
+        "endDateHint": "Leave empty for automatic calculation",
+        "status": "Initial Status"
+      },
+      "table": {
+        "student": "Student",
+        "plan": "Plan / Track",
+        "accessLevel": "Access Level",
+        "enrolledAt": "Enrolled At",
+        "dates": "Duration",
+        "status": "Status",
+        "actions": "Actions"
+      },
+      "phase": {
+        "accessProvisioning": "Level 3: Access Provisioning",
+        "contentProvisioning": "Phase 2: Content Provisioning"
+      },
+      "status": {
+        "ACTIVE": "Active",
+        "EXPIRED": "Expired",
+        "CANCELED": "Canceled",
+        "PENDING_PAYMENT": "Pending Payment"
+      },
+      "toast": {
+        "fetchError": "Could not load data",
+        "createSuccess": "Student enrolled successfully",
+        "updateSuccess": "Status updated",
+        "error": "Failed to process enrollment"
+      }
+    },
+    "paymentsPage": {
+      "title": "Payments & Transactions",
+      "subtitle": "View all payments",
+      "empty": "No payments found",
+      "table": {
+        "invoice": "Invoice ID",
+        "parent": "Parent / Payer",
+        "amount": "Amount",
+        "date": "Payment Date",
+        "status": "Status",
+        "actions": "Actions",
+        "description": "Description",
+        "method": "Payment Method"
+      },
+      "status": {
+        "PAID": "Paid",
+        "PENDING": "Pending",
+        "FAILED": "Failed",
+        "REFUNDED": "Refunded",
+        "OVERDUE": "Overdue"
+      },
+      "details": {
+        "title": "Transaction Details",
+        "gateway": "Payment Gateway",
+        "orderId": "Gateway Order ID",
+        "subscription": "Linked Subscription",
+        "child": "Student",
+        "package": "Package",
+        "items": "Items / Tracks",
+        "totalAmount": "Total Amount",
+        "manualVerification": "Manual Verification",
+        "adminStatusOverride": "Payment Status Override (Admin)",
+        "statusPlaceholder": "Update status",
+        "paidActivatesNote": "Note: marking as paid will activate the student subscription and enrollments.",
+        "guestPayer": "Guest payer",
+        "childOf": "Student: {{name}}",
+        "refLabel": "Ref"
+      },
+      "toast": {
+        "fetchError": "Could not load payments",
+        "updateSuccess": "Payment status updated",
+        "error": "Failed to update transaction"
+      }
+    },
+    "ticketsPage": {
+      "title": "Helpdesk & Support",
+      "table": {
+        "id": "Ref ID",
+        "user": "Parent / Student",
+        "subject": "Inquiry Subject",
+        "priority": "Priority",
+        "status": "Status",
+        "date": "Created At",
+        "actions": "Actions"
+      },
+      "status": {
+        "OPEN": "Open",
+        "IN_PROGRESS": "In Progress",
+        "CLOSED": "Resolved"
+      },
+      "priority": {
+        "LOW": "Low",
+        "MEDIUM": "Medium",
+        "HIGH": "High"
+      },
+      "detail": {
+        "title": "Ticket Conversation",
+        "originalMessage": "Initial Request",
+        "closed": "Ticket closed",
+        "closedMessage": "This ticket is closed and read-only.",
+        "replyPlaceholder": "Type your reply here…",
+        "archivedNote": "This ticket is closed and read-only.",
+        "submit": "Send Reply",
+        "updateStatus": "Resolution Status"
+      },
+      "toast": {
+        "fetchError": "Could not load tickets",
+        "replySuccess": "Response sent successfully",
+        "updateSuccess": "Status updated",
+        "error": "Failed to sync message"
+      }
+    },
+    "supportPage": {
+      "title": "Support",
+      "subtitle": "Free trial requests and support",
+      "trialRequests": "Free Trial Requests",
+      "empty": "No requests found",
+      "colParentName": "Parent Name",
+      "colChildName": "Child Name",
+      "colChildAge": "Age",
+      "colEmail": "Email",
+      "colPhone": "Phone",
+      "colProgram": "Program",
+      "colPreferredDate": "Preferred Date",
+      "colStatus": "Status",
+      "statusPending": "Pending",
+      "statusConfirmed": "Confirmed"
+    },
+    "quizzes": {
+      "pageTitle": "Quizzes & Exams",
+      "pageSubtitle": "Manage lesson assessments and final track certifications",
+      "addQuiz": "New Assessment",
+      "editQuiz": "Edit Assessment",
+      "noQuizzes": "No quizzes found",
+      "deleteConfirm": "Are you sure you want to delete this assessment?",
+      "title": "Assessment Title",
+      "type": "Type",
+      "passingScore": "Passing Score (%)",
+      "timeLimit": "Time Limit (mins)",
+      "maxAttempts": "Max Attempts",
+      "context": "Context",
+      "linkToSession": "Link to Session",
+      "linkToTrack": "Link to Track",
+      "status": {
+        "LESSON_QUIZ": "Lesson Quiz",
+        "TRACK_FINAL": "Track Exam",
+        "COMPETITION": "Competition"
+      },
+      "questions": "Questions",
+      "addQuestion": "Add Question",
+      "questionText": "Question Text",
+      "questionType": "Type",
+      "points": "Grade Points",
+      "options": "Answer Options",
+      "addOption": "Add Option",
+      "isCorrect": "Correct Answer",
+      "mcq": "Multiple Choice",
+      "trueFalse": "True / False",
+      "toast": {
+        "saveSuccess": "Assessment saved successfully",
+        "fetchError": "Failed to load quizzes",
+        "deleteConfirm": "Are you sure you want to delete this assessment?",
+        "deleteSuccess": "Assessment deleted successfully"
+      },
+      "validationAtLeastOneCorrect": "Please mark at least one correct answer for each question",
+      "titlePlaceholder": "e.g. Intro to Python final exam",
+      "questionPlaceholder": "Type your question here…",
+      "optionPlaceholder": "Option {{n}}",
+      "engineSubtitle": "Assessment engine",
+      "questionNumber": "Question {{n}}",
+      "trueLabel": "True",
+      "falseLabel": "False",
+      "validation": {
+        "atLeastOneCorrect": "Please mark at least one option as correct",
+        "atLeastOneQuestion": "Please add at least one question"
+      }
+    },
+    "rolesPage": {
+      "title": "Roles & Access Control",
+      "subtitle": "Define granular CRUD permissions and assign them to staff members to secure the platform.",
+      "newRole": "Create Custom Role",
+      "moreUsers": "+{{count}} more",
+      "editTitle": "Edit Role: {{name}}",
+      "createTitle": "Create New Custom Role",
+      "formSubtitle": "Permission Configuration",
+      "roleName": "Role Designation",
+      "roleNamePlaceholder": "e.g. Content Moderator",
+      "description": "Short Description",
+      "descriptionPlaceholder": "Explain the responsibilities of this role...",
+      "permissionMatrix": "Permission Matrix (Granular Access)",
+      "resource": "System Resource",
+      "all": "All",
+      "permissionsCount": "{{selected}} of {{total}} permissions selected",
+      "selectAll": "Select All",
+      "clearAll": "Clear Selection",
+      "loading": "Loading security profiles...",
+      "emptyTitle": "No Custom Roles Found",
+      "emptyDesc": "Roles allow you to delegate specific tasks to staff members without giving them full admin access.",
+      "roleNameRequired": "Please enter a name for this role",
+      "selectPermission": "Select at least one permission for this role",
+      "updateSuccess": "Role \"{{name}}\" synchronized",
+      "createSuccess": "Role \"{{name}}\" provisioned",
+      "deleteConfirm": "Are you sure you want to permanently delete the \"{{name}}\" role?",
+      "deleteSuccess": "Role removed successfully",
+      "fetchError": "Could not synchronize roles from server",
+      "saveFailed": "Failed to save the security profile",
+      "deleteFailed": "This role is currently active and cannot be removed",
+      "editRole": "Adjust permissions",
+      "deleteRole": "Remove profile",
+      "reassignFirst": "Role has active users assigned",
+      "createRole": "Create Role",
+      "updateRole": "Update Role",
+      "tablePermissions": "Active Permissions",
+      "tableAssignedUsers": "Assigned Staff"
+    },
+    "performancePage": {
+      "title": "Assessments & Results",
+      "subtitle": "Monitor student learning progress, quiz scores, and project submissions.",
+      "toast": {
+        "fetchError": "Could not load performance data"
+      },
+      "stats": {
+        "avgScore": "Average Grade",
+        "totalQuizzes": "Total Quizzes",
+        "passedQuizzes": "Passed Assessment",
+        "projectsSubmitted": "Projects"
+      },
+      "table": {
+        "quizName": "Assessment",
+        "score": "Score",
+        "status": "Result",
+        "date": "Date Taken",
+        "duration": "Duration (min)"
+      },
+      "passed": "Passed",
+      "failed": "Failed",
+      "noAttempts": "No attempts found for this student.",
+      "overallPerformance": "Overall Performance",
+      "backToStudents": "Back to Students"
+    },
+    "assessments": {
+      "allTitle": "All Assessments",
+      "subtitle": "Track student quiz performance across the platform",
+      "searchPlaceholder": "Filter by student or quiz...",
+      "tableTitle": "Recent Quiz Activity",
+      "tableSubtitle": "Snapshot of the latest completed assessments",
+      "noResults": "No assessment attempts found",
+      "toast": {
+        "fetchError": "Failed to load assessments"
+      },
+      "tips": {
+        "title": "Quick Search",
+        "search": "Filter by student name or quiz title to find specific records quickly.",
+        "detailsTitle": "Drill Down",
+        "details": "Click on a student's name to view their full academic performance history and project submissions."
+      }
+    },
+    "common": {
+      "view": "View",
+      "edit": "Edit",
+      "delete": "Delete",
+      "save": "Save",
+      "cancel": "Cancel",
+      "addNew": "Add new",
+      "searchPlaceholder": "Search…",
+      "confirmDelete": "Are you sure you want to delete this item?",
+      "deleteSuccess": "Deleted successfully",
+      "deleteError": "Could not delete item",
+      "statusUpdateSuccess": "Status updated successfully",
+      "error": "An error occurred while saving",
+      "retry": "Please try again",
+      "filters": "Filters",
+      "active": "Active",
+      "inactive": "Inactive",
+      "actions": "Actions"
+    },
+    "contentPage": {
+      "navTitle": "Content management",
+      "title": "Content management",
+      "subtitle": "Blog, landing page student projects, and FAQs",
+      "fetchError": "Could not load content",
+      "tabBlog": "Blog",
+      "tabProjects": "Student projects",
+      "tabFaq": "FAQs",
+      "addArticle": "Add article",
+      "addProject": "Add project",
+      "addFaq": "Add FAQ",
+      "colTitle": "Title",
+      "colSlug": "Slug",
+      "colAuthor": "Author",
+      "colPublished": "Published",
+      "emptyBlog": "No articles yet.",
+      "emptyProjects": "No showcase projects yet.",
+      "emptyFaq": "No FAQs yet.",
+      "bannersLink": "Banners & media",
+      "projectCreated": "Project added successfully",
+      "projectUpdated": "Project updated",
+      "projectDeleted": "Project removed",
+      "faqCreated": "FAQ added successfully",
+      "faqUpdated": "FAQ updated",
+      "faqDeleted": "FAQ removed",
+      "editProject": "Edit project",
+      "newProject": "New project",
+      "projectFormHint": "Shown on the public marketing site.",
+      "projectTitle": "Project title",
+      "studentName": "Student name",
+      "projectDescription": "Description",
+      "imageUrl": "Image URL",
+      "projectUrl": "Project URL (optional)",
+      "orderLabel": "Display order",
+      "activeLabel": "Active on home page",
+      "openProject": "Open link",
+      "editFaq": "Edit FAQ",
+      "newFaq": "New FAQ",
+      "faqQuestion": "Question",
+      "faqAnswer": "Answer",
+      "faqCategory": "Category",
+      "faqCategoryPlaceholder": "General, billing, …"
+    },
+    "cmsPage": {
+      "title": "Website Content (CMS)",
+      "subtitle": "Manage marketing banners and articles for the marketing website.",
+      "tabArticles": "Articles & News",
+      "tabBanners": "Marketing Banners",
+      "searchPlaceholder": "Search by title...",
+      "fetchError": "Could not sync content from server",
+      "articles": {
+        "tab": "Blog & Articles",
+        "new": "New Article",
+        "createTitle": "Compose New Article",
+        "editTitle": "Edit Article: {{title}}",
+        "formDesc": "Define title, slug, and content for the public website.",
+        "tableTitle": "Article Information",
+        "tableStatus": "Visibility",
+        "tableDate": "Publish Date",
+        "titleLabel": "Article Title",
+        "titlePlaceholder": "e.g. Academy Grand Opening",
+        "slugPlaceholder": "e.g. academy-opening",
+        "slugLabel": "URL Slug",
+        "imageLabel": "Cover Image URL",
+        "imageUrlPlaceholder": "https://…",
+        "displayAuthorLabel": "Display author",
+        "displayAuthorPlaceholder": "Shown to visitors when set",
+        "contentLabel": "Body Content",
+        "publishLabel": "Publish Online",
+        "publishDesc": "Make this article visible to public visitors",
+        "createSuccess": "Article published",
+        "updateSuccess": "Article synced",
+        "statusUpdated": "Visibility changed",
+        "deleteSuccess": "Article removed",
+        "error": "Failed to save article",
+        "empty": "No articles yet. Start writing to engage your audience."
+      },
+      "banners": {
+        "tab": "Banners & Media",
+        "new": "Add Banner",
+        "createTitle": "Deploy New Banner",
+        "editTitle": "Adjust Banner Media",
+        "formDesc": "Select high-quality images for specific website positions.",
+        "tablePreview": "Media Preview",
+        "tablePosition": "Position",
+        "tableStatus": "Active Status",
+        "titleLabel": "Internal Title",
+        "titlePlaceholder": "e.g. Summer Promo 2026",
+        "imageLabel": "Image Assets URL",
+        "linkLabel": "Click-through URL",
+        "positionLabel": "Deployment Area",
+        "orderLabel": "Priority Order",
+        "activeLabel": "Live Status",
+        "activeDesc": "Enable this banner for current visitors",
+        "posHero": "Hero Slider",
+        "posSidebar": "Sidebar Widget",
+        "posPopup": "Entry Popup",
+        "createSuccess": "Banner deployed",
+        "updateSuccess": "Banner updated",
+        "statusUpdated": "Banner state synced",
+        "deleteSuccess": "Banner removed",
+        "error": "Failed to save banner",
+        "empty": "No active banners found. Add media to capture attention."
+      }
+    },
+    "bundles": {
+      "title": "Bundles Management",
+      "subtitle": "Create, edit, and delete course bundles to encourage enrollments",
+      "create": "Create New Bundle",
+      "edit": "Edit Bundle",
+      "table": {
+        "title": "Bundle Title",
+        "price": "Discounted Price",
+        "tracksCount": "Tracks",
+        "status": "Status",
+        "actions": "Actions"
+      },
+      "form": {
+        "title": "Bundle Title",
+        "description": "Description (optional)",
+        "discountedPrice": "Discounted Price (SAR)",
+        "isActive": "Is Active",
+        "selectTracks": "Select Tracks",
+        "originalPrice": "Total Original Value: {{price}} SAR"
+      },
+      "toast": {
+        "fetchError": "Could not load bundles",
+        "createSuccess": "Bundle created successfully",
+        "updateSuccess": "Bundle updated successfully",
+        "deleteSuccess": "Bundle deleted successfully",
+        "error": "An error occurred"
+      }
+    }
+  }
+}

@@ -1,0 +1,247 @@
+@import "tailwindcss";
+
+@theme {
+  /* ==========================================================
+     Design tokens (single source of truth)
+     Tailwind v4 will generate utilities like `bg-background`,
+     `text-foreground`, `border-border`, etc from these tokens.
+     ========================================================== */
+
+  /* Brand */
+  --color-primary: #366dec;
+  --color-primary-hover: #2a58c7;
+  --color-primary-soft: color-mix(in srgb, var(--color-primary) 14%, white);
+
+  /* Semantic UI */
+  --color-background: #f3f8ff;
+  --color-foreground: #0f172a;
+  --color-card: #ffffff;
+  --color-muted: #f1f5f9;
+  --color-muted-foreground: #64748b;
+  --color-border: rgba(54, 109, 236, 0.18);
+
+  /* Admin shell (dark sidebar + top bar helpers) */
+  --color-sidebar: #0c1929;
+  --color-sidebar-foreground: #e8eef6;
+  --color-sidebar-muted: rgba(232, 238, 246, 0.55);
+  --color-sidebar-accent: rgba(54, 109, 236, 0.45);
+  --color-sidebar-border: rgba(255, 255, 255, 0.08);
+  --color-topnav-foreground: #ffffff;
+
+  /* Status */
+  --color-success: #46d268;
+  --color-warning: #ecc53e;
+  --color-destructive: #e74c3c;
+
+  /* Typography */
+  --font-cairo: "Cairo", sans-serif;
+  --font-inter: "Inter", sans-serif;
+
+  /* Radius */
+  --radius-xs: 10px;
+  --radius-sm: 12px;
+  --radius-md: 16px;
+  --radius-lg: 20px;
+  --radius-pill: 9999px;
+
+  /* Shadows */
+  --shadow-card: 0 8px 30px rgba(15, 23, 42, 0.06);
+  --shadow-card-hover: 0 12px 40px rgba(15, 23, 42, 0.12);
+
+  /* Motion */
+  --animate-fade-up: fadeInUp 0.6s ease forwards;
+  --animate-fade-in: fadeIn 0.5s ease forwards;
+  --animate-zoom-in: zoomIn 0.5s ease forwards;
+  --animate-float: float 3s ease-in-out infinite;
+  --animate-pulse-slow: pulse 2s ease-in-out infinite;
+  --animate-rotate-slow: rotate 20s linear infinite;
+  --animate-bounce-slow: bounce 2s infinite;
+
+  /* Gradients */
+  --background-image-gradient-primary: linear-gradient(135deg, #366dec 0%, #5a8ff5 100%);
+  --background-image-gradient-success: linear-gradient(135deg, #46d268 0%, #5dd87a 100%);
+  --background-image-gradient-sky: linear-gradient(180deg, #f0f8fe 0%, #f5f9fe 50%, #ffffff 100%);
+
+  /* Keyframes */
+  @keyframes fadeInUp {
+    0% { opacity: 0; transform: translateY(30px); }
+    100% { opacity: 1; transform: translateY(0); }
+  }
+  @keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  @keyframes zoomIn {
+    0% { opacity: 0; transform: scale(0.96); }
+    100% { opacity: 1; transform: scale(1); }
+  }
+  @keyframes float {
+    0%, 100% { transform: translateY(0px); }
+    50% { transform: translateY(-16px); }
+  }
+  @keyframes rotate {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+  }
+}
+
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  /* LanguageProvider toggles these classes on <body> */
+  .font-cairo { font-family: var(--font-cairo); }
+  .font-inter { font-family: var(--font-inter); }
+
+  body {
+    text-align: start;
+    line-height: 1.65;
+    overflow-x: hidden;
+    color: var(--color-foreground);
+    background-color: var(--color-background);
+  }
+  
+  /* Scrollbar styling */
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+  ::-webkit-scrollbar-track {
+    background: color-mix(in srgb, var(--color-background) 70%, white);
+  }
+  ::-webkit-scrollbar-thumb {
+    background: color-mix(in srgb, var(--color-primary) 25%, transparent);
+    border-radius: 10px;
+  }
+  ::selection {
+    background: var(--color-primary);
+    color: white;
+  }
+}
+
+@layer components {
+  /* GoKanary-style thin sidebar scrollbar */
+  .custom-scrollbar::-webkit-scrollbar {
+    width: 8px;
+  }
+  .custom-scrollbar::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  .custom-scrollbar::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.18);
+    border-radius: 9999px;
+  }
+  .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+    background: rgba(255, 255, 255, 0.28);
+  }
+
+  /* Firefox */
+  .custom-scrollbar {
+    scrollbar-width: thin;
+    scrollbar-color: rgba(255, 255, 255, 0.22) transparent;
+  }
+
+  /* Background patterns */
+  .bg-pattern-dots {
+    background-image: radial-gradient(circle, color-mix(in srgb, var(--color-primary) 12%, transparent) 1px, transparent 1px);
+    background-size: 30px 30px;
+    opacity: 0.3;
+  }
+  
+  .bg-pattern-grid {
+    background-image: 
+      linear-gradient(color-mix(in srgb, var(--color-primary) 18%, transparent) 1px, transparent 1px),
+      linear-gradient(90deg, color-mix(in srgb, var(--color-primary) 18%, transparent) 1px, transparent 1px);
+    background-size: 40px 40px;
+    opacity: 0.2;
+  }
+  
+  .glass {
+    background: color-mix(in srgb, var(--color-card) 70%, transparent);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid color-mix(in srgb, var(--color-border) 70%, transparent);
+  }
+}
+
+@layer utilities {
+  /** Premium public landing: white canvas + light slate grid (EdTech “tech paper” feel) */
+  .bg-grid-slate-100 {
+    background-color: #ffffff;
+    background-image:
+      linear-gradient(to right, rgb(241 245 249) 1px, transparent 1px),
+      linear-gradient(to bottom, rgb(241 245 249) 1px, transparent 1px);
+    background-size: 32px 32px;
+  }
+
+  /** CMS / marketing HTML blocks (About, blog body) */
+  .public-prose {
+    max-width: none;
+    color: rgb(51 65 85);
+    font-size: 1.05rem;
+    line-height: 1.85;
+  }
+  .public-prose p {
+    margin-bottom: 1rem;
+  }
+  .public-prose ul {
+    list-style: disc;
+    padding-inline-start: 1.35rem;
+    margin-bottom: 1rem;
+  }
+  .public-prose li {
+    margin-bottom: 0.4rem;
+  }
+  .public-prose h2,
+  .public-prose h3 {
+    font-weight: 800;
+    color: rgb(15 23 42);
+    margin-top: 1.75rem;
+    margin-bottom: 0.75rem;
+  }
+  .public-prose h2 {
+    font-size: 1.35rem;
+  }
+  .public-prose h3 {
+    font-size: 1.15rem;
+  }
+}
+
+/* Teacher dashboard: unify primary + borders with a Premium Deep Teal / Aurora shell */
+.teacher-dashboard-shell {
+  --color-primary: #0d9488; /* Teal 600 */
+  --color-primary-hover: #0f766e; /* Teal 700 */
+  --color-primary-soft: color-mix(in srgb, var(--color-primary) 10%, transparent);
+  --color-border: rgba(13, 148, 136, 0.15);
+  --color-background: #f8fafc;
+}
+
+/* Premium Glassmorphism */
+.glass-card {
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(12px) saturate(180%);
+  -webkit-backdrop-filter: blur(12px) saturate(180%);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.07);
+}
+
+.glass-card-dark {
+  background: rgba(15, 23, 42, 0.6);
+  backdrop-filter: blur(12px) saturate(180%);
+  -webkit-backdrop-filter: blur(12px) saturate(180%);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.2);
+}
+
+.animate-gradient {
+  background-size: 200% 200%;
+  animation: gradient-move 8s ease infinite;
+}
+
+@keyframes gradient-move {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
